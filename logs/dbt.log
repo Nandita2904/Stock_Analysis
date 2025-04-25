@@ -1,0 +1,2462 @@
+[0m17:43:24.052099 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72453b9151f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72453b0a6040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72453abf7670>]}
+
+
+============================== 17:43:24.095470 | 2ade8165-92c4-490d-8ca6-7907d5fbde73 ==============================
+[0m17:43:24.095470 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m17:43:24.098046 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/home/sadhana/stock_analysis_project', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m17:43:37.757181 [debug] [MainThread]: Starter project path: /home/sadhana/.pyenv/versions/3.8.11/lib/python3.8/site-packages/dbt/include/starter_project
+[0m17:43:37.787267 [info ] [MainThread]: 
+Your new dbt project "stock_analysis" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:43:37.789834 [info ] [MainThread]: Setting up your profile.
+[0m17:43:54.602390 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 30.822195, "process_user_time": 4.255814, "process_kernel_time": 1.247716, "process_mem_max_rss": "85364", "process_in_blocks": "39672", "process_out_blocks": "72"}
+[0m17:43:54.604624 [debug] [MainThread]: Command `dbt init` succeeded at 17:43:54.603963 after 30.83 seconds
+[0m17:43:54.606525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72453b9151f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72453abf7640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72453b0a6040>]}
+[0m17:43:54.607999 [debug] [MainThread]: Flushing usage events
+[0m17:43:56.874512 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:44:15.145761 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72ff392df1c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72ff39f1c370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72ff385b3c10>]}
+
+
+============================== 17:44:15.154046 | d81e50e0-c3b2-4381-bc1f-8456722769dc ==============================
+[0m17:44:15.154046 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m17:44:15.156078 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/sadhana/stock_analysis_project', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m17:44:15.158094 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/sadhana/stock_analysis_project/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:44:15.169594 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.21950504, "process_user_time": 3.973644, "process_kernel_time": 0.401712, "process_mem_max_rss": "82664", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[0m17:44:15.171200 [debug] [MainThread]: Command `dbt run` failed at 17:44:15.170901 after 0.23 seconds
+[0m17:44:15.172351 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72ff392df1c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72ff39f1c370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72ff38593eb0>]}
+[0m17:44:15.174718 [debug] [MainThread]: Flushing usage events
+[0m17:44:17.356951 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:52:56.432775 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x760eb27601f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x760eb1a2b730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x760eb1a45550>]}
+
+
+============================== 17:52:56.442768 | 13b11a8f-8737-44bf-8237-7a96fbe1f6dd ==============================
+[0m17:52:56.442768 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m17:52:56.444758 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/home/sadhana/stock_analysis_project', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:52:56.446555 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/sadhana/stock_analysis_project/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:52:56.449975 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.21360937, "process_user_time": 3.746705, "process_kernel_time": 0.481887, "process_mem_max_rss": "82668", "process_in_blocks": "14808", "process_out_blocks": "8", "command_success": false}
+[0m17:52:56.451745 [debug] [MainThread]: Command `dbt run` failed at 17:52:56.451374 after 0.22 seconds
+[0m17:52:56.453457 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x760eb27601f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x760eb1a2b730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x760eb1ef1040>]}
+[0m17:52:56.454746 [debug] [MainThread]: Flushing usage events
+[0m17:52:57.959101 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:57:52.047725 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb732756160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb7324deeb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb73336ef40>]}
+
+
+============================== 17:57:52.056390 | 97861536-18ab-4991-9834-dda850e1cce0 ==============================
+[0m17:57:52.056390 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m17:57:52.059143 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/home/sadhana/stock_analysis_project/logs', 'profiles_dir': '/home/sadhana/stock_analysis_project', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:57:52.804042 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '97861536-18ab-4991-9834-dda850e1cce0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb7334d5130>]}
+[0m17:57:53.087469 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '97861536-18ab-4991-9834-dda850e1cce0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb7334b5d90>]}
+[0m17:57:53.092160 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m17:57:53.175708 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m17:57:53.179110 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m17:57:53.181807 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '97861536-18ab-4991-9834-dda850e1cce0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb73138ccd0>]}
+[0m17:57:58.212664 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '97861536-18ab-4991-9834-dda850e1cce0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb7313a1eb0>]}
+[0m17:57:58.666107 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '97861536-18ab-4991-9834-dda850e1cce0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb7334d53d0>]}
+[0m17:57:58.668070 [info ] [MainThread]: Found 5 models, 2 analyses, 4 sources, 423 macros
+[0m17:57:58.669725 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '97861536-18ab-4991-9834-dda850e1cce0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb731a77d00>]}
+[0m17:57:58.675356 [info ] [MainThread]: 
+[0m17:57:58.676758 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m17:57:58.678650 [info ] [MainThread]: 
+[0m17:57:58.680885 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m17:57:58.701680 [debug] [ThreadPool]: Acquiring new postgres connection 'list_stock_analysis'
+[0m17:57:58.947524 [debug] [ThreadPool]: Using postgres connection "list_stock_analysis"
+[0m17:57:58.948832 [debug] [ThreadPool]: On list_stock_analysis: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "connection_name": "list_stock_analysis"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m17:57:58.950248 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:57:59.160711 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.210 seconds
+[0m17:57:59.164608 [debug] [ThreadPool]: On list_stock_analysis: Close
+[0m17:57:59.172555 [debug] [ThreadPool]: Acquiring new postgres connection 'list_stock_analysis_public'
+[0m17:57:59.194148 [debug] [ThreadPool]: Using postgres connection "list_stock_analysis_public"
+[0m17:57:59.195704 [debug] [ThreadPool]: On list_stock_analysis_public: BEGIN
+[0m17:57:59.196902 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:57:59.231792 [debug] [ThreadPool]: SQL status: BEGIN in 0.034 seconds
+[0m17:57:59.233186 [debug] [ThreadPool]: Using postgres connection "list_stock_analysis_public"
+[0m17:57:59.234714 [debug] [ThreadPool]: On list_stock_analysis_public: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "connection_name": "list_stock_analysis_public"} */
+select
+      'stock_analysis' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'stock_analysis' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'stock_analysis' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m17:57:59.314871 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.079 seconds
+[0m17:57:59.319051 [debug] [ThreadPool]: On list_stock_analysis_public: ROLLBACK
+[0m17:57:59.320771 [debug] [ThreadPool]: On list_stock_analysis_public: Close
+[0m17:57:59.341850 [debug] [MainThread]: Using postgres connection "master"
+[0m17:57:59.343116 [debug] [MainThread]: On master: BEGIN
+[0m17:57:59.344854 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:57:59.369437 [debug] [MainThread]: SQL status: BEGIN in 0.024 seconds
+[0m17:57:59.371867 [debug] [MainThread]: Using postgres connection "master"
+[0m17:57:59.373607 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m17:57:59.439655 [debug] [MainThread]: SQL status: SELECT 0 in 0.064 seconds
+[0m17:57:59.443302 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '97861536-18ab-4991-9834-dda850e1cce0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb733436d00>]}
+[0m17:57:59.444705 [debug] [MainThread]: On master: ROLLBACK
+[0m17:57:59.446521 [debug] [MainThread]: Using postgres connection "master"
+[0m17:57:59.448252 [debug] [MainThread]: On master: BEGIN
+[0m17:57:59.450933 [debug] [MainThread]: SQL status: BEGIN in 0.001 seconds
+[0m17:57:59.452156 [debug] [MainThread]: On master: COMMIT
+[0m17:57:59.453591 [debug] [MainThread]: Using postgres connection "master"
+[0m17:57:59.454900 [debug] [MainThread]: On master: COMMIT
+[0m17:57:59.457305 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m17:57:59.458638 [debug] [MainThread]: On master: Close
+[0m17:57:59.470936 [debug] [Thread-1  ]: Began running node model.stock_analysis.stg_stock_data
+[0m17:57:59.473586 [info ] [Thread-1  ]: 1 of 4 START sql view model public.stg_stock_data .............................. [RUN]
+[0m17:57:59.475486 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_stock_analysis_public, now model.stock_analysis.stg_stock_data)
+[0m17:57:59.477716 [debug] [Thread-1  ]: Began compiling node model.stock_analysis.stg_stock_data
+[0m17:57:59.519217 [debug] [Thread-1  ]: Writing injected SQL for node "model.stock_analysis.stg_stock_data"
+[0m17:57:59.522560 [debug] [Thread-1  ]: Began executing node model.stock_analysis.stg_stock_data
+[0m17:57:59.643671 [debug] [Thread-1  ]: Writing runtime sql for node "model.stock_analysis.stg_stock_data"
+[0m17:57:59.646333 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m17:57:59.647605 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: BEGIN
+[0m17:57:59.648920 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m17:57:59.678988 [debug] [Thread-1  ]: SQL status: BEGIN in 0.030 seconds
+[0m17:57:59.680372 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m17:57:59.682720 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+
+  create view "stock_analysis"."public"."stg_stock_data__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT
+    id,
+    symbol,
+    price,
+    volume,
+    change_percent,
+    timestamp,
+    sector,
+    processed_timestamp
+FROM "stock_analysis"."public"."raw_stock_data"
+  );
+[0m17:57:59.763632 [debug] [Thread-1  ]: SQL status: CREATE VIEW in 0.079 seconds
+[0m17:57:59.785754 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m17:57:59.787347 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+alter table "stock_analysis"."public"."stg_stock_data__dbt_tmp" rename to "stg_stock_data"
+[0m17:57:59.793906 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.005 seconds
+[0m17:57:59.847727 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: COMMIT
+[0m17:57:59.849787 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m17:57:59.852554 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: COMMIT
+[0m17:57:59.860160 [debug] [Thread-1  ]: SQL status: COMMIT in 0.005 seconds
+[0m17:57:59.885886 [debug] [Thread-1  ]: Applying DROP to: "stock_analysis"."public"."stg_stock_data__dbt_backup"
+[0m17:57:59.902761 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m17:57:59.904160 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+drop view if exists "stock_analysis"."public"."stg_stock_data__dbt_backup" cascade
+[0m17:57:59.907591 [debug] [Thread-1  ]: SQL status: DROP VIEW in 0.002 seconds
+[0m17:57:59.915171 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: Close
+[0m17:57:59.921994 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '97861536-18ab-4991-9834-dda850e1cce0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb730661d60>]}
+[0m17:57:59.925169 [info ] [Thread-1  ]: 1 of 4 OK created sql view model public.stg_stock_data ......................... [[32mCREATE VIEW[0m in 0.44s]
+[0m17:57:59.929018 [debug] [Thread-1  ]: Finished running node model.stock_analysis.stg_stock_data
+[0m17:57:59.932612 [debug] [Thread-3  ]: Began running node model.stock_analysis.int_stock_metrics
+[0m17:57:59.934500 [info ] [Thread-3  ]: 2 of 4 START sql table model public.int_stock_metrics .......................... [RUN]
+[0m17:57:59.936618 [debug] [Thread-3  ]: Acquiring new postgres connection 'model.stock_analysis.int_stock_metrics'
+[0m17:57:59.938400 [debug] [Thread-3  ]: Began compiling node model.stock_analysis.int_stock_metrics
+[0m17:57:59.954192 [debug] [Thread-3  ]: Writing injected SQL for node "model.stock_analysis.int_stock_metrics"
+[0m17:57:59.956551 [debug] [Thread-3  ]: Began executing node model.stock_analysis.int_stock_metrics
+[0m17:58:00.041425 [debug] [Thread-3  ]: Writing runtime sql for node "model.stock_analysis.int_stock_metrics"
+[0m17:58:00.049843 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m17:58:00.051410 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: BEGIN
+[0m17:58:00.052367 [debug] [Thread-3  ]: Opening a new connection, currently in state init
+[0m17:58:00.077260 [debug] [Thread-3  ]: SQL status: BEGIN in 0.025 seconds
+[0m17:58:00.078921 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m17:58:00.080676 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_stock_metrics"} */
+
+  
+    
+
+  create  table "stock_analysis"."public"."int_stock_metrics__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+WITH daily_metrics AS (
+    SELECT
+        symbol,
+        DATE(timestamp) as trade_date,
+        AVG(price) as avg_price,
+        MAX(price) as high_price,
+        MIN(price) as low_price,
+        FIRST_VALUE(price) OVER (PARTITION BY symbol, DATE(timestamp) ORDER BY timestamp) as open_price,
+        LAST_VALUE(price) OVER (PARTITION BY symbol, DATE(timestamp) ORDER BY timestamp ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) as close_price,
+        SUM(volume) as daily_volume
+    FROM "stock_analysis"."public"."stg_stock_data"
+    GROUP BY symbol, DATE(timestamp), timestamp
+),
+
+volatility AS (
+    SELECT
+        symbol,
+        trade_date,
+        (high_price - low_price) / ((high_price + low_price) / 2) * 100 as daily_volatility
+    FROM daily_metrics
+)
+
+SELECT
+    d.symbol,
+    d.trade_date,
+    d.avg_price,
+    d.high_price,
+    d.low_price,
+    d.open_price,
+    d.close_price,
+    d.daily_volume,
+    v.daily_volatility,
+    (d.close_price - d.open_price) / d.open_price * 100 as daily_return
+FROM daily_metrics d
+JOIN volatility v ON d.symbol = v.symbol AND d.trade_date = v.trade_date
+  );
+  
+[0m17:58:00.103145 [debug] [Thread-3  ]: Postgres adapter: Postgres error: column "stg_stock_data.price" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 21:         FIRST_VALUE(price) OVER (PARTITION BY symbol, DATE(t...
+                             ^
+
+[0m17:58:00.105195 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: ROLLBACK
+[0m17:58:00.107704 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: Close
+[0m17:58:00.129129 [debug] [Thread-3  ]: Database Error in model int_stock_metrics (models/intermediate/int_stock_metrics.sql)
+  column "stg_stock_data.price" must appear in the GROUP BY clause or be used in an aggregate function
+  LINE 21:         FIRST_VALUE(price) OVER (PARTITION BY symbol, DATE(t...
+                               ^
+  compiled code at target/run/stock_analysis/models/intermediate/int_stock_metrics.sql
+[0m17:58:00.131616 [debug] [Thread-3  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '97861536-18ab-4991-9834-dda850e1cce0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb7325309d0>]}
+[0m17:58:00.134374 [error] [Thread-3  ]: 2 of 4 ERROR creating sql table model public.int_stock_metrics ................. [[31mERROR[0m in 0.20s]
+[0m17:58:00.138200 [debug] [Thread-3  ]: Finished running node model.stock_analysis.int_stock_metrics
+[0m17:58:00.140424 [debug] [Thread-7  ]: Marking all children of 'model.stock_analysis.int_stock_metrics' to be skipped because of status 'error'.  Reason: Database Error in model int_stock_metrics (models/intermediate/int_stock_metrics.sql)
+  column "stg_stock_data.price" must appear in the GROUP BY clause or be used in an aggregate function
+  LINE 21:         FIRST_VALUE(price) OVER (PARTITION BY symbol, DATE(t...
+                               ^
+  compiled code at target/run/stock_analysis/models/intermediate/int_stock_metrics.sql.
+[0m17:58:00.143807 [debug] [Thread-2  ]: Began running node model.stock_analysis.int_sector_analysis
+[0m17:58:00.147775 [debug] [Thread-1  ]: Began running node model.stock_analysis.price_analytics
+[0m17:58:00.145762 [info ] [Thread-2  ]: 3 of 4 SKIP relation public.int_sector_analysis ................................ [[33mSKIP[0m]
+[0m17:58:00.152967 [debug] [Thread-2  ]: Finished running node model.stock_analysis.int_sector_analysis
+[0m17:58:00.150756 [info ] [Thread-1  ]: 4 of 4 SKIP relation public.price_analytics .................................... [[33mSKIP[0m]
+[0m17:58:00.157078 [debug] [Thread-1  ]: Finished running node model.stock_analysis.price_analytics
+[0m17:58:00.164476 [debug] [MainThread]: Using postgres connection "master"
+[0m17:58:00.166181 [debug] [MainThread]: On master: BEGIN
+[0m17:58:00.168530 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m17:58:00.192322 [debug] [MainThread]: SQL status: BEGIN in 0.024 seconds
+[0m17:58:00.194421 [debug] [MainThread]: On master: COMMIT
+[0m17:58:00.195738 [debug] [MainThread]: Using postgres connection "master"
+[0m17:58:00.196848 [debug] [MainThread]: On master: COMMIT
+[0m17:58:00.198898 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m17:58:00.200149 [debug] [MainThread]: On master: Close
+[0m17:58:00.202440 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:58:00.204901 [debug] [MainThread]: Connection 'list_stock_analysis' was properly closed.
+[0m17:58:00.206736 [debug] [MainThread]: Connection 'model.stock_analysis.stg_stock_data' was properly closed.
+[0m17:58:00.207939 [debug] [MainThread]: Connection 'model.stock_analysis.int_stock_metrics' was properly closed.
+[0m17:58:00.210083 [info ] [MainThread]: 
+[0m17:58:00.211931 [info ] [MainThread]: Finished running 3 table models, 1 view model in 0 hours 0 minutes and 1.53 seconds (1.53s).
+[0m17:58:00.215298 [debug] [MainThread]: Command end result
+[0m17:58:00.317523 [info ] [MainThread]: 
+[0m17:58:00.319602 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successs, and 0 warnings:[0m
+[0m17:58:00.321683 [info ] [MainThread]: 
+[0m17:58:00.323155 [error] [MainThread]:   Database Error in model int_stock_metrics (models/intermediate/int_stock_metrics.sql)
+  column "stg_stock_data.price" must appear in the GROUP BY clause or be used in an aggregate function
+  LINE 21:         FIRST_VALUE(price) OVER (PARTITION BY symbol, DATE(t...
+                               ^
+  compiled code at target/run/stock_analysis/models/intermediate/int_stock_metrics.sql
+[0m17:58:00.325617 [info ] [MainThread]: 
+[0m17:58:00.327313 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=1 SKIP=2 TOTAL=4
+[0m17:58:00.331253 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 8.475557, "process_user_time": 11.077999, "process_kernel_time": 0.994353, "process_mem_max_rss": "112508", "process_in_blocks": "9440", "process_out_blocks": "2656", "command_success": false}
+[0m17:58:00.332803 [debug] [MainThread]: Command `dbt run` failed at 17:58:00.332214 after 8.48 seconds
+[0m17:58:00.334245 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb732756160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb730d568b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb730d86e50>]}
+[0m17:58:00.336132 [debug] [MainThread]: Flushing usage events
+[0m17:58:01.617947 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:59:34.218761 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7431026ce1c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7431019b3fa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x743101f782e0>]}
+
+
+============================== 17:59:34.227931 | 623b88cf-fd01-43fd-b4bf-2a3a724e8968 ==============================
+[0m17:59:34.227931 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m17:59:34.230178 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/home/sadhana/stock_analysis_project/logs', 'profiles_dir': '/home/sadhana/stock_analysis_project', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:59:34.793191 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '623b88cf-fd01-43fd-b4bf-2a3a724e8968', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74310347adf0>]}
+[0m17:59:35.013069 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '623b88cf-fd01-43fd-b4bf-2a3a724e8968', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7431019520a0>]}
+[0m17:59:35.015592 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m17:59:35.084301 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m17:59:35.695793 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m17:59:35.698812 [debug] [MainThread]: Partial parsing: updated file: stock_analysis://models/intermediate/int_stock_metrics.sql
+[0m17:59:36.827030 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '623b88cf-fd01-43fd-b4bf-2a3a724e8968', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x743100ceed60>]}
+[0m17:59:37.228617 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '623b88cf-fd01-43fd-b4bf-2a3a724e8968', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x743100c2b520>]}
+[0m17:59:37.230739 [info ] [MainThread]: Found 5 models, 2 analyses, 4 sources, 423 macros
+[0m17:59:37.232901 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '623b88cf-fd01-43fd-b4bf-2a3a724e8968', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7431012c7cd0>]}
+[0m17:59:37.238015 [info ] [MainThread]: 
+[0m17:59:37.239874 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m17:59:37.241759 [info ] [MainThread]: 
+[0m17:59:37.243993 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m17:59:37.265520 [debug] [ThreadPool]: Acquiring new postgres connection 'list_stock_analysis'
+[0m17:59:37.380334 [debug] [ThreadPool]: Using postgres connection "list_stock_analysis"
+[0m17:59:37.381658 [debug] [ThreadPool]: On list_stock_analysis: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "connection_name": "list_stock_analysis"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m17:59:37.382915 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:59:37.447018 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.064 seconds
+[0m17:59:37.451108 [debug] [ThreadPool]: On list_stock_analysis: Close
+[0m17:59:37.458829 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_stock_analysis, now list_stock_analysis_public)
+[0m17:59:37.480680 [debug] [ThreadPool]: Using postgres connection "list_stock_analysis_public"
+[0m17:59:37.481873 [debug] [ThreadPool]: On list_stock_analysis_public: BEGIN
+[0m17:59:37.483022 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:59:37.503917 [debug] [ThreadPool]: SQL status: BEGIN in 0.021 seconds
+[0m17:59:37.505555 [debug] [ThreadPool]: Using postgres connection "list_stock_analysis_public"
+[0m17:59:37.506752 [debug] [ThreadPool]: On list_stock_analysis_public: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "connection_name": "list_stock_analysis_public"} */
+select
+      'stock_analysis' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'stock_analysis' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'stock_analysis' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m17:59:37.514827 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.007 seconds
+[0m17:59:37.519062 [debug] [ThreadPool]: On list_stock_analysis_public: ROLLBACK
+[0m17:59:37.521423 [debug] [ThreadPool]: On list_stock_analysis_public: Close
+[0m17:59:37.540869 [debug] [MainThread]: Using postgres connection "master"
+[0m17:59:37.542549 [debug] [MainThread]: On master: BEGIN
+[0m17:59:37.543776 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:59:37.568622 [debug] [MainThread]: SQL status: BEGIN in 0.025 seconds
+[0m17:59:37.569955 [debug] [MainThread]: Using postgres connection "master"
+[0m17:59:37.571719 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m17:59:37.593181 [debug] [MainThread]: SQL status: SELECT 1 in 0.020 seconds
+[0m17:59:37.597604 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '623b88cf-fd01-43fd-b4bf-2a3a724e8968', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x743100c6aee0>]}
+[0m17:59:37.599143 [debug] [MainThread]: On master: ROLLBACK
+[0m17:59:37.600816 [debug] [MainThread]: Using postgres connection "master"
+[0m17:59:37.601973 [debug] [MainThread]: On master: BEGIN
+[0m17:59:37.604236 [debug] [MainThread]: SQL status: BEGIN in 0.001 seconds
+[0m17:59:37.605612 [debug] [MainThread]: On master: COMMIT
+[0m17:59:37.606763 [debug] [MainThread]: Using postgres connection "master"
+[0m17:59:37.607804 [debug] [MainThread]: On master: COMMIT
+[0m17:59:37.609640 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m17:59:37.610606 [debug] [MainThread]: On master: Close
+[0m17:59:37.624009 [debug] [Thread-1  ]: Began running node model.stock_analysis.stg_stock_data
+[0m17:59:37.626224 [info ] [Thread-1  ]: 1 of 4 START sql view model public.stg_stock_data .............................. [RUN]
+[0m17:59:37.628786 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_stock_analysis_public, now model.stock_analysis.stg_stock_data)
+[0m17:59:37.630293 [debug] [Thread-1  ]: Began compiling node model.stock_analysis.stg_stock_data
+[0m17:59:37.664877 [debug] [Thread-1  ]: Writing injected SQL for node "model.stock_analysis.stg_stock_data"
+[0m17:59:37.667782 [debug] [Thread-1  ]: Began executing node model.stock_analysis.stg_stock_data
+[0m17:59:37.792112 [debug] [Thread-1  ]: Writing runtime sql for node "model.stock_analysis.stg_stock_data"
+[0m17:59:37.794858 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m17:59:37.796187 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: BEGIN
+[0m17:59:37.797674 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m17:59:37.820052 [debug] [Thread-1  ]: SQL status: BEGIN in 0.022 seconds
+[0m17:59:37.821933 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m17:59:37.823645 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+
+  create view "stock_analysis"."public"."stg_stock_data__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT
+    id,
+    symbol,
+    price,
+    volume,
+    change_percent,
+    timestamp,
+    sector,
+    processed_timestamp
+FROM "stock_analysis"."public"."raw_stock_data"
+  );
+[0m17:59:37.864195 [debug] [Thread-1  ]: SQL status: CREATE VIEW in 0.038 seconds
+[0m17:59:37.888295 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m17:59:37.890474 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+alter table "stock_analysis"."public"."stg_stock_data" rename to "stg_stock_data__dbt_backup"
+[0m17:59:37.893755 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.001 seconds
+[0m17:59:37.908240 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m17:59:37.909808 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+alter table "stock_analysis"."public"."stg_stock_data__dbt_tmp" rename to "stg_stock_data"
+[0m17:59:37.912068 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.001 seconds
+[0m17:59:37.970399 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: COMMIT
+[0m17:59:37.971744 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m17:59:37.973529 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: COMMIT
+[0m17:59:37.977383 [debug] [Thread-1  ]: SQL status: COMMIT in 0.002 seconds
+[0m17:59:37.999473 [debug] [Thread-1  ]: Applying DROP to: "stock_analysis"."public"."stg_stock_data__dbt_backup"
+[0m17:59:38.012636 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m17:59:38.014037 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+drop view if exists "stock_analysis"."public"."stg_stock_data__dbt_backup" cascade
+[0m17:59:38.040560 [debug] [Thread-1  ]: SQL status: DROP VIEW in 0.025 seconds
+[0m17:59:38.047206 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: Close
+[0m17:59:38.053230 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '623b88cf-fd01-43fd-b4bf-2a3a724e8968', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x743103710d30>]}
+[0m17:59:38.055922 [info ] [Thread-1  ]: 1 of 4 OK created sql view model public.stg_stock_data ......................... [[32mCREATE VIEW[0m in 0.42s]
+[0m17:59:38.059380 [debug] [Thread-1  ]: Finished running node model.stock_analysis.stg_stock_data
+[0m17:59:38.062951 [debug] [Thread-3  ]: Began running node model.stock_analysis.int_stock_metrics
+[0m17:59:38.064961 [info ] [Thread-3  ]: 2 of 4 START sql table model public.int_stock_metrics .......................... [RUN]
+[0m17:59:38.067787 [debug] [Thread-3  ]: Acquiring new postgres connection 'model.stock_analysis.int_stock_metrics'
+[0m17:59:38.069445 [debug] [Thread-3  ]: Began compiling node model.stock_analysis.int_stock_metrics
+[0m17:59:38.085017 [debug] [Thread-3  ]: Writing injected SQL for node "model.stock_analysis.int_stock_metrics"
+[0m17:59:38.087796 [debug] [Thread-3  ]: Began executing node model.stock_analysis.int_stock_metrics
+[0m17:59:38.166632 [debug] [Thread-3  ]: Writing runtime sql for node "model.stock_analysis.int_stock_metrics"
+[0m17:59:38.169577 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m17:59:38.171024 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: BEGIN
+[0m17:59:38.172313 [debug] [Thread-3  ]: Opening a new connection, currently in state init
+[0m17:59:38.199571 [debug] [Thread-3  ]: SQL status: BEGIN in 0.027 seconds
+[0m17:59:38.201232 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m17:59:38.203123 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_stock_metrics"} */
+
+  
+    
+
+  create  table "stock_analysis"."public"."int_stock_metrics__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+WITH daily_metrics AS (
+    SELECT
+        symbol,
+        DATE(timestamp) as trade_date,
+        AVG(price) as avg_price,
+        MAX(price) as high_price,
+        MIN(price) as low_price,
+        FIRST_VALUE(price) OVER (PARTITION BY symbol, DATE(timestamp) ORDER BY timestamp) as open_price,
+        LAST_VALUE(price) OVER (PARTITION BY symbol, DATE(timestamp) ORDER BY timestamp ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) as close_price,
+        SUM(volume) as daily_volume
+    FROM "stock_analysis"."public"."stg_stock_data"
+    GROUP BY symbol, DATE(timestamp)
+),
+
+volatility AS (
+    SELECT
+        symbol,
+        trade_date,
+        (high_price - low_price) / ((high_price + low_price) / 2) * 100 as daily_volatility
+    FROM daily_metrics
+)
+
+SELECT
+    d.symbol,
+    d.trade_date,
+    d.avg_price,
+    d.high_price,
+    d.low_price,
+    d.open_price,
+    d.close_price,
+    d.daily_volume,
+    v.daily_volatility,
+    (d.close_price - d.open_price) / d.open_price * 100 as daily_return
+FROM daily_metrics d
+JOIN volatility v ON d.symbol = v.symbol AND d.trade_date = v.trade_date
+  );
+  
+[0m17:59:38.208217 [debug] [Thread-3  ]: Postgres adapter: Postgres error: column "stg_stock_data.price" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 21:         FIRST_VALUE(price) OVER (PARTITION BY symbol, DATE(t...
+                             ^
+
+[0m17:59:38.209320 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: ROLLBACK
+[0m17:59:38.211685 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: Close
+[0m17:59:38.219999 [debug] [Thread-3  ]: Database Error in model int_stock_metrics (models/intermediate/int_stock_metrics.sql)
+  column "stg_stock_data.price" must appear in the GROUP BY clause or be used in an aggregate function
+  LINE 21:         FIRST_VALUE(price) OVER (PARTITION BY symbol, DATE(t...
+                               ^
+  compiled code at target/run/stock_analysis/models/intermediate/int_stock_metrics.sql
+[0m17:59:38.222104 [debug] [Thread-3  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '623b88cf-fd01-43fd-b4bf-2a3a724e8968', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74310045b820>]}
+[0m17:59:38.224811 [error] [Thread-3  ]: 2 of 4 ERROR creating sql table model public.int_stock_metrics ................. [[31mERROR[0m in 0.15s]
+[0m17:59:38.226801 [debug] [Thread-3  ]: Finished running node model.stock_analysis.int_stock_metrics
+[0m17:59:38.228934 [debug] [Thread-7  ]: Marking all children of 'model.stock_analysis.int_stock_metrics' to be skipped because of status 'error'.  Reason: Database Error in model int_stock_metrics (models/intermediate/int_stock_metrics.sql)
+  column "stg_stock_data.price" must appear in the GROUP BY clause or be used in an aggregate function
+  LINE 21:         FIRST_VALUE(price) OVER (PARTITION BY symbol, DATE(t...
+                               ^
+  compiled code at target/run/stock_analysis/models/intermediate/int_stock_metrics.sql.
+[0m17:59:38.232670 [debug] [Thread-2  ]: Began running node model.stock_analysis.int_sector_analysis
+[0m17:59:38.234308 [info ] [Thread-2  ]: 3 of 4 SKIP relation public.int_sector_analysis ................................ [[33mSKIP[0m]
+[0m17:59:38.236902 [debug] [Thread-2  ]: Finished running node model.stock_analysis.int_sector_analysis
+[0m17:59:38.239392 [debug] [Thread-2  ]: Began running node model.stock_analysis.price_analytics
+[0m17:59:38.240878 [info ] [Thread-2  ]: 4 of 4 SKIP relation public.price_analytics .................................... [[33mSKIP[0m]
+[0m17:59:38.243592 [debug] [Thread-2  ]: Finished running node model.stock_analysis.price_analytics
+[0m17:59:38.250332 [debug] [MainThread]: Using postgres connection "master"
+[0m17:59:38.252573 [debug] [MainThread]: On master: BEGIN
+[0m17:59:38.254057 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m17:59:38.280734 [debug] [MainThread]: SQL status: BEGIN in 0.027 seconds
+[0m17:59:38.282199 [debug] [MainThread]: On master: COMMIT
+[0m17:59:38.283662 [debug] [MainThread]: Using postgres connection "master"
+[0m17:59:38.284826 [debug] [MainThread]: On master: COMMIT
+[0m17:59:38.286824 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m17:59:38.288712 [debug] [MainThread]: On master: Close
+[0m17:59:38.291793 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:59:38.293357 [debug] [MainThread]: Connection 'model.stock_analysis.stg_stock_data' was properly closed.
+[0m17:59:38.294710 [debug] [MainThread]: Connection 'model.stock_analysis.int_stock_metrics' was properly closed.
+[0m17:59:38.296919 [info ] [MainThread]: 
+[0m17:59:38.299622 [info ] [MainThread]: Finished running 3 table models, 1 view model in 0 hours 0 minutes and 1.05 seconds (1.05s).
+[0m17:59:38.303020 [debug] [MainThread]: Command end result
+[0m17:59:38.512598 [info ] [MainThread]: 
+[0m17:59:38.514814 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successs, and 0 warnings:[0m
+[0m17:59:38.516721 [info ] [MainThread]: 
+[0m17:59:38.518478 [error] [MainThread]:   Database Error in model int_stock_metrics (models/intermediate/int_stock_metrics.sql)
+  column "stg_stock_data.price" must appear in the GROUP BY clause or be used in an aggregate function
+  LINE 21:         FIRST_VALUE(price) OVER (PARTITION BY symbol, DATE(t...
+                               ^
+  compiled code at target/run/stock_analysis/models/intermediate/int_stock_metrics.sql
+[0m17:59:38.519927 [info ] [MainThread]: 
+[0m17:59:38.521809 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=1 SKIP=2 TOTAL=4
+[0m17:59:38.524488 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 4.4920187, "process_user_time": 7.648499, "process_kernel_time": 0.556254, "process_mem_max_rss": "111812", "process_out_blocks": "2656", "command_success": false, "process_in_blocks": "0"}
+[0m17:59:38.527509 [debug] [MainThread]: Command `dbt run` failed at 17:59:38.526847 after 4.49 seconds
+[0m17:59:38.529888 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7431026ce1c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x743101294fa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x743103454070>]}
+[0m17:59:38.531709 [debug] [MainThread]: Flushing usage events
+[0m17:59:41.133371 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:00:34.515285 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1616da01f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c161607d610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c16165461c0>]}
+
+
+============================== 18:00:34.523256 | b333ad79-c079-464a-bf10-a3960a3e77d7 ==============================
+[0m18:00:34.523256 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m18:00:34.526268 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/sadhana/stock_analysis_project', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/home/sadhana/stock_analysis_project/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m18:00:35.082075 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b333ad79-c079-464a-bf10-a3960a3e77d7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c16160c1ca0>]}
+[0m18:00:35.291097 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b333ad79-c079-464a-bf10-a3960a3e77d7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1617aeeeb0>]}
+[0m18:00:35.293884 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m18:00:35.362174 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m18:00:35.872996 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m18:00:35.874578 [debug] [MainThread]: Partial parsing: updated file: stock_analysis://models/intermediate/int_stock_metrics.sql
+[0m18:00:36.878442 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b333ad79-c079-464a-bf10-a3960a3e77d7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c16153abd60>]}
+[0m18:00:37.364321 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b333ad79-c079-464a-bf10-a3960a3e77d7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c16152ea580>]}
+[0m18:00:37.366284 [info ] [MainThread]: Found 5 models, 2 analyses, 4 sources, 423 macros
+[0m18:00:37.368131 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b333ad79-c079-464a-bf10-a3960a3e77d7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c16158e2ca0>]}
+[0m18:00:37.373316 [info ] [MainThread]: 
+[0m18:00:37.374797 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m18:00:37.376226 [info ] [MainThread]: 
+[0m18:00:37.378779 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m18:00:37.394506 [debug] [ThreadPool]: Acquiring new postgres connection 'list_stock_analysis'
+[0m18:00:37.519212 [debug] [ThreadPool]: Using postgres connection "list_stock_analysis"
+[0m18:00:37.520867 [debug] [ThreadPool]: On list_stock_analysis: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "connection_name": "list_stock_analysis"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m18:00:37.522503 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:00:37.551620 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.029 seconds
+[0m18:00:37.555582 [debug] [ThreadPool]: On list_stock_analysis: Close
+[0m18:00:37.561147 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_stock_analysis, now list_stock_analysis_public)
+[0m18:00:37.584075 [debug] [ThreadPool]: Using postgres connection "list_stock_analysis_public"
+[0m18:00:37.585839 [debug] [ThreadPool]: On list_stock_analysis_public: BEGIN
+[0m18:00:37.587104 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m18:00:37.612876 [debug] [ThreadPool]: SQL status: BEGIN in 0.026 seconds
+[0m18:00:37.614298 [debug] [ThreadPool]: Using postgres connection "list_stock_analysis_public"
+[0m18:00:37.615815 [debug] [ThreadPool]: On list_stock_analysis_public: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "connection_name": "list_stock_analysis_public"} */
+select
+      'stock_analysis' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'stock_analysis' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'stock_analysis' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m18:00:37.624548 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.007 seconds
+[0m18:00:37.629022 [debug] [ThreadPool]: On list_stock_analysis_public: ROLLBACK
+[0m18:00:37.631072 [debug] [ThreadPool]: On list_stock_analysis_public: Close
+[0m18:00:37.652507 [debug] [MainThread]: Using postgres connection "master"
+[0m18:00:37.653757 [debug] [MainThread]: On master: BEGIN
+[0m18:00:37.654947 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:00:37.678008 [debug] [MainThread]: SQL status: BEGIN in 0.023 seconds
+[0m18:00:37.679252 [debug] [MainThread]: Using postgres connection "master"
+[0m18:00:37.681419 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m18:00:37.703558 [debug] [MainThread]: SQL status: SELECT 1 in 0.021 seconds
+[0m18:00:37.708613 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b333ad79-c079-464a-bf10-a3960a3e77d7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1614ceea00>]}
+[0m18:00:37.710281 [debug] [MainThread]: On master: ROLLBACK
+[0m18:00:37.712656 [debug] [MainThread]: Using postgres connection "master"
+[0m18:00:37.714439 [debug] [MainThread]: On master: BEGIN
+[0m18:00:37.716764 [debug] [MainThread]: SQL status: BEGIN in 0.001 seconds
+[0m18:00:37.718053 [debug] [MainThread]: On master: COMMIT
+[0m18:00:37.719114 [debug] [MainThread]: Using postgres connection "master"
+[0m18:00:37.720131 [debug] [MainThread]: On master: COMMIT
+[0m18:00:37.721744 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m18:00:37.723940 [debug] [MainThread]: On master: Close
+[0m18:00:37.736962 [debug] [Thread-1  ]: Began running node model.stock_analysis.stg_stock_data
+[0m18:00:37.739277 [info ] [Thread-1  ]: 1 of 4 START sql view model public.stg_stock_data .............................. [RUN]
+[0m18:00:37.740980 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_stock_analysis_public, now model.stock_analysis.stg_stock_data)
+[0m18:00:37.742738 [debug] [Thread-1  ]: Began compiling node model.stock_analysis.stg_stock_data
+[0m18:00:37.771622 [debug] [Thread-1  ]: Writing injected SQL for node "model.stock_analysis.stg_stock_data"
+[0m18:00:37.775515 [debug] [Thread-1  ]: Began executing node model.stock_analysis.stg_stock_data
+[0m18:00:37.889415 [debug] [Thread-1  ]: Writing runtime sql for node "model.stock_analysis.stg_stock_data"
+[0m18:00:37.892024 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m18:00:37.893898 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: BEGIN
+[0m18:00:37.895425 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m18:00:37.916843 [debug] [Thread-1  ]: SQL status: BEGIN in 0.022 seconds
+[0m18:00:37.918766 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m18:00:37.920767 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+
+  create view "stock_analysis"."public"."stg_stock_data__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT
+    id,
+    symbol,
+    price,
+    volume,
+    change_percent,
+    timestamp,
+    sector,
+    processed_timestamp
+FROM "stock_analysis"."public"."raw_stock_data"
+  );
+[0m18:00:37.928742 [debug] [Thread-1  ]: SQL status: CREATE VIEW in 0.006 seconds
+[0m18:00:37.949205 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m18:00:37.950720 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+alter table "stock_analysis"."public"."stg_stock_data" rename to "stg_stock_data__dbt_backup"
+[0m18:00:37.952885 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.001 seconds
+[0m18:00:37.961771 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m18:00:37.963197 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+alter table "stock_analysis"."public"."stg_stock_data__dbt_tmp" rename to "stg_stock_data"
+[0m18:00:37.965118 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.001 seconds
+[0m18:00:38.021955 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: COMMIT
+[0m18:00:38.023860 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m18:00:38.025088 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: COMMIT
+[0m18:00:38.027974 [debug] [Thread-1  ]: SQL status: COMMIT in 0.002 seconds
+[0m18:00:38.048580 [debug] [Thread-1  ]: Applying DROP to: "stock_analysis"."public"."stg_stock_data__dbt_backup"
+[0m18:00:38.063798 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m18:00:38.065165 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+drop view if exists "stock_analysis"."public"."stg_stock_data__dbt_backup" cascade
+[0m18:00:38.069299 [debug] [Thread-1  ]: SQL status: DROP VIEW in 0.003 seconds
+[0m18:00:38.076245 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: Close
+[0m18:00:38.083829 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b333ad79-c079-464a-bf10-a3960a3e77d7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1617de2d60>]}
+[0m18:00:38.086610 [info ] [Thread-1  ]: 1 of 4 OK created sql view model public.stg_stock_data ......................... [[32mCREATE VIEW[0m in 0.34s]
+[0m18:00:38.088754 [debug] [Thread-1  ]: Finished running node model.stock_analysis.stg_stock_data
+[0m18:00:38.091803 [debug] [Thread-3  ]: Began running node model.stock_analysis.int_stock_metrics
+[0m18:00:38.094092 [info ] [Thread-3  ]: 2 of 4 START sql table model public.int_stock_metrics .......................... [RUN]
+[0m18:00:38.098297 [debug] [Thread-3  ]: Acquiring new postgres connection 'model.stock_analysis.int_stock_metrics'
+[0m18:00:38.100565 [debug] [Thread-3  ]: Began compiling node model.stock_analysis.int_stock_metrics
+[0m18:00:38.113589 [debug] [Thread-3  ]: Writing injected SQL for node "model.stock_analysis.int_stock_metrics"
+[0m18:00:38.117872 [debug] [Thread-3  ]: Began executing node model.stock_analysis.int_stock_metrics
+[0m18:00:38.196233 [debug] [Thread-3  ]: Writing runtime sql for node "model.stock_analysis.int_stock_metrics"
+[0m18:00:38.198851 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m18:00:38.200161 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: BEGIN
+[0m18:00:38.201351 [debug] [Thread-3  ]: Opening a new connection, currently in state init
+[0m18:00:38.224706 [debug] [Thread-3  ]: SQL status: BEGIN in 0.023 seconds
+[0m18:00:38.226333 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m18:00:38.228007 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_stock_metrics"} */
+
+  
+    
+
+  create  table "stock_analysis"."public"."int_stock_metrics__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+WITH daily_metrics AS (
+    SELECT
+        symbol,
+        DATE(timestamp) as trade_date,
+        AVG(price) as avg_price,
+        MAX(price) as high_price,
+        MIN(price) as low_price,
+        FIRST_VALUE(price) OVER (PARTITION BY symbol, DATE(timestamp) ORDER BY timestamp) as open_price,
+        LAST_VALUE(price) OVER (PARTITION BY symbol, DATE(timestamp) ORDER BY timestamp ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) as close_price,
+        SUM(volume) as daily_volume
+    FROM "stock_analysis"."public"."stg_stock_data"
+    -- Grouping should include all columns not in aggregation or window functions
+    GROUP BY symbol, DATE(timestamp)
+),
+
+volatility AS (
+    SELECT
+        symbol,
+        trade_date,
+        (high_price - low_price) / ((high_price + low_price) / 2) * 100 as daily_volatility
+    FROM daily_metrics
+)
+
+SELECT
+    d.symbol,
+    d.trade_date,
+    d.avg_price,
+    d.high_price,
+    d.low_price,
+    d.open_price,
+    d.close_price,
+    d.daily_volume,
+    v.daily_volatility,
+    (d.close_price - d.open_price) / d.open_price * 100 as daily_return
+FROM daily_metrics d
+JOIN volatility v ON d.symbol = v.symbol AND d.trade_date = v.trade_date
+  );
+  
+[0m18:00:38.233597 [debug] [Thread-3  ]: Postgres adapter: Postgres error: column "stg_stock_data.price" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 21:         FIRST_VALUE(price) OVER (PARTITION BY symbol, DATE(t...
+                             ^
+
+[0m18:00:38.236116 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: ROLLBACK
+[0m18:00:38.238783 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: Close
+[0m18:00:38.247838 [debug] [Thread-3  ]: Database Error in model int_stock_metrics (models/intermediate/int_stock_metrics.sql)
+  column "stg_stock_data.price" must appear in the GROUP BY clause or be used in an aggregate function
+  LINE 21:         FIRST_VALUE(price) OVER (PARTITION BY symbol, DATE(t...
+                               ^
+  compiled code at target/run/stock_analysis/models/intermediate/int_stock_metrics.sql
+[0m18:00:38.250591 [debug] [Thread-3  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b333ad79-c079-464a-bf10-a3960a3e77d7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1614b1a4f0>]}
+[0m18:00:38.252902 [error] [Thread-3  ]: 2 of 4 ERROR creating sql table model public.int_stock_metrics ................. [[31mERROR[0m in 0.15s]
+[0m18:00:38.255136 [debug] [Thread-3  ]: Finished running node model.stock_analysis.int_stock_metrics
+[0m18:00:38.257165 [debug] [Thread-7  ]: Marking all children of 'model.stock_analysis.int_stock_metrics' to be skipped because of status 'error'.  Reason: Database Error in model int_stock_metrics (models/intermediate/int_stock_metrics.sql)
+  column "stg_stock_data.price" must appear in the GROUP BY clause or be used in an aggregate function
+  LINE 21:         FIRST_VALUE(price) OVER (PARTITION BY symbol, DATE(t...
+                               ^
+  compiled code at target/run/stock_analysis/models/intermediate/int_stock_metrics.sql.
+[0m18:00:38.261458 [debug] [Thread-2  ]: Began running node model.stock_analysis.int_sector_analysis
+[0m18:00:38.264962 [debug] [Thread-1  ]: Began running node model.stock_analysis.price_analytics
+[0m18:00:38.263485 [info ] [Thread-2  ]: 3 of 4 SKIP relation public.int_sector_analysis ................................ [[33mSKIP[0m]
+[0m18:00:38.270768 [debug] [Thread-2  ]: Finished running node model.stock_analysis.int_sector_analysis
+[0m18:00:38.267082 [info ] [Thread-1  ]: 4 of 4 SKIP relation public.price_analytics .................................... [[33mSKIP[0m]
+[0m18:00:38.273369 [debug] [Thread-1  ]: Finished running node model.stock_analysis.price_analytics
+[0m18:00:38.279414 [debug] [MainThread]: Using postgres connection "master"
+[0m18:00:38.282751 [debug] [MainThread]: On master: BEGIN
+[0m18:00:38.284476 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m18:00:38.309102 [debug] [MainThread]: SQL status: BEGIN in 0.025 seconds
+[0m18:00:38.310775 [debug] [MainThread]: On master: COMMIT
+[0m18:00:38.312164 [debug] [MainThread]: Using postgres connection "master"
+[0m18:00:38.313512 [debug] [MainThread]: On master: COMMIT
+[0m18:00:38.314993 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m18:00:38.316233 [debug] [MainThread]: On master: Close
+[0m18:00:38.318717 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m18:00:38.320600 [debug] [MainThread]: Connection 'model.stock_analysis.stg_stock_data' was properly closed.
+[0m18:00:38.322338 [debug] [MainThread]: Connection 'model.stock_analysis.int_stock_metrics' was properly closed.
+[0m18:00:38.324274 [info ] [MainThread]: 
+[0m18:00:38.326772 [info ] [MainThread]: Finished running 3 table models, 1 view model in 0 hours 0 minutes and 0.95 seconds (0.95s).
+[0m18:00:38.330501 [debug] [MainThread]: Command end result
+[0m18:00:38.534521 [info ] [MainThread]: 
+[0m18:00:38.536597 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successs, and 0 warnings:[0m
+[0m18:00:38.538166 [info ] [MainThread]: 
+[0m18:00:38.541192 [error] [MainThread]:   Database Error in model int_stock_metrics (models/intermediate/int_stock_metrics.sql)
+  column "stg_stock_data.price" must appear in the GROUP BY clause or be used in an aggregate function
+  LINE 21:         FIRST_VALUE(price) OVER (PARTITION BY symbol, DATE(t...
+                               ^
+  compiled code at target/run/stock_analysis/models/intermediate/int_stock_metrics.sql
+[0m18:00:38.543275 [info ] [MainThread]: 
+[0m18:00:38.545069 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=1 SKIP=2 TOTAL=4
+[0m18:00:38.549359 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 4.214422, "process_user_time": 7.469333, "process_kernel_time": 0.543053, "process_mem_max_rss": "111616", "process_out_blocks": "2656", "command_success": false, "process_in_blocks": "0"}
+[0m18:00:38.551271 [debug] [MainThread]: Command `dbt run` failed at 18:00:38.551025 after 4.22 seconds
+[0m18:00:38.552923 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1616da01f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c16158c09d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1617fd3af0>]}
+[0m18:00:38.554216 [debug] [MainThread]: Flushing usage events
+[0m18:00:42.129570 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:01:45.046324 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x781716c551f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x781715f3b4f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x781715f3bbb0>]}
+
+
+============================== 18:01:45.054060 | 5965d0d6-3ad6-4e96-a29c-24129cf0f723 ==============================
+[0m18:01:45.054060 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m18:01:45.056057 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/sadhana/stock_analysis_project', 'debug': 'False', 'version_check': 'True', 'log_path': '/home/sadhana/stock_analysis_project/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m18:01:45.600181 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5965d0d6-3ad6-4e96-a29c-24129cf0f723', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x781715ee54c0>]}
+[0m18:01:45.806781 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '5965d0d6-3ad6-4e96-a29c-24129cf0f723', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x781715ed70d0>]}
+[0m18:01:45.809179 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m18:01:45.876976 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m18:01:46.505193 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m18:01:46.507848 [debug] [MainThread]: Partial parsing: updated file: stock_analysis://models/intermediate/int_stock_metrics.sql
+[0m18:01:47.544910 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5965d0d6-3ad6-4e96-a29c-24129cf0f723', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7817154ebdf0>]}
+[0m18:01:47.936480 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5965d0d6-3ad6-4e96-a29c-24129cf0f723', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7817151aa5e0>]}
+[0m18:01:47.938549 [info ] [MainThread]: Found 5 models, 2 analyses, 4 sources, 423 macros
+[0m18:01:47.940169 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5965d0d6-3ad6-4e96-a29c-24129cf0f723', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7817157b3c40>]}
+[0m18:01:47.944448 [info ] [MainThread]: 
+[0m18:01:47.945842 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m18:01:47.947217 [info ] [MainThread]: 
+[0m18:01:47.949089 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m18:01:47.967058 [debug] [ThreadPool]: Acquiring new postgres connection 'list_stock_analysis'
+[0m18:01:48.087270 [debug] [ThreadPool]: Using postgres connection "list_stock_analysis"
+[0m18:01:48.089329 [debug] [ThreadPool]: On list_stock_analysis: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "connection_name": "list_stock_analysis"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m18:01:48.090721 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:01:48.150001 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.059 seconds
+[0m18:01:48.154094 [debug] [ThreadPool]: On list_stock_analysis: Close
+[0m18:01:48.161107 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_stock_analysis, now list_stock_analysis_public)
+[0m18:01:48.183912 [debug] [ThreadPool]: Using postgres connection "list_stock_analysis_public"
+[0m18:01:48.185318 [debug] [ThreadPool]: On list_stock_analysis_public: BEGIN
+[0m18:01:48.186612 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m18:01:48.207724 [debug] [ThreadPool]: SQL status: BEGIN in 0.021 seconds
+[0m18:01:48.209069 [debug] [ThreadPool]: Using postgres connection "list_stock_analysis_public"
+[0m18:01:48.210672 [debug] [ThreadPool]: On list_stock_analysis_public: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "connection_name": "list_stock_analysis_public"} */
+select
+      'stock_analysis' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'stock_analysis' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'stock_analysis' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m18:01:48.218734 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.007 seconds
+[0m18:01:48.223149 [debug] [ThreadPool]: On list_stock_analysis_public: ROLLBACK
+[0m18:01:48.225468 [debug] [ThreadPool]: On list_stock_analysis_public: Close
+[0m18:01:48.244660 [debug] [MainThread]: Using postgres connection "master"
+[0m18:01:48.245959 [debug] [MainThread]: On master: BEGIN
+[0m18:01:48.247427 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:01:48.276669 [debug] [MainThread]: SQL status: BEGIN in 0.029 seconds
+[0m18:01:48.277923 [debug] [MainThread]: Using postgres connection "master"
+[0m18:01:48.279221 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m18:01:48.300345 [debug] [MainThread]: SQL status: SELECT 1 in 0.020 seconds
+[0m18:01:48.304353 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5965d0d6-3ad6-4e96-a29c-24129cf0f723', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7817151edfa0>]}
+[0m18:01:48.306122 [debug] [MainThread]: On master: ROLLBACK
+[0m18:01:48.308283 [debug] [MainThread]: Using postgres connection "master"
+[0m18:01:48.309220 [debug] [MainThread]: On master: BEGIN
+[0m18:01:48.311810 [debug] [MainThread]: SQL status: BEGIN in 0.001 seconds
+[0m18:01:48.313110 [debug] [MainThread]: On master: COMMIT
+[0m18:01:48.314230 [debug] [MainThread]: Using postgres connection "master"
+[0m18:01:48.316594 [debug] [MainThread]: On master: COMMIT
+[0m18:01:48.318482 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m18:01:48.319788 [debug] [MainThread]: On master: Close
+[0m18:01:48.331439 [debug] [Thread-1  ]: Began running node model.stock_analysis.stg_stock_data
+[0m18:01:48.333820 [info ] [Thread-1  ]: 1 of 4 START sql view model public.stg_stock_data .............................. [RUN]
+[0m18:01:48.336498 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_stock_analysis_public, now model.stock_analysis.stg_stock_data)
+[0m18:01:48.338556 [debug] [Thread-1  ]: Began compiling node model.stock_analysis.stg_stock_data
+[0m18:01:48.374478 [debug] [Thread-1  ]: Writing injected SQL for node "model.stock_analysis.stg_stock_data"
+[0m18:01:48.378084 [debug] [Thread-1  ]: Began executing node model.stock_analysis.stg_stock_data
+[0m18:01:48.503708 [debug] [Thread-1  ]: Writing runtime sql for node "model.stock_analysis.stg_stock_data"
+[0m18:01:48.506655 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m18:01:48.508009 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: BEGIN
+[0m18:01:48.509561 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m18:01:48.560137 [debug] [Thread-1  ]: SQL status: BEGIN in 0.051 seconds
+[0m18:01:48.561937 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m18:01:48.563818 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+
+  create view "stock_analysis"."public"."stg_stock_data__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT
+    id,
+    symbol,
+    price,
+    volume,
+    change_percent,
+    timestamp,
+    sector,
+    processed_timestamp
+FROM "stock_analysis"."public"."raw_stock_data"
+  );
+[0m18:01:48.571066 [debug] [Thread-1  ]: SQL status: CREATE VIEW in 0.005 seconds
+[0m18:01:48.593030 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m18:01:48.595914 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+alter table "stock_analysis"."public"."stg_stock_data" rename to "stg_stock_data__dbt_backup"
+[0m18:01:48.599109 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.002 seconds
+[0m18:01:48.608954 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m18:01:48.610673 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+alter table "stock_analysis"."public"."stg_stock_data__dbt_tmp" rename to "stg_stock_data"
+[0m18:01:48.614990 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.003 seconds
+[0m18:01:48.670860 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: COMMIT
+[0m18:01:48.672665 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m18:01:48.674150 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: COMMIT
+[0m18:01:48.676958 [debug] [Thread-1  ]: SQL status: COMMIT in 0.002 seconds
+[0m18:01:48.699662 [debug] [Thread-1  ]: Applying DROP to: "stock_analysis"."public"."stg_stock_data__dbt_backup"
+[0m18:01:48.714271 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m18:01:48.715879 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+drop view if exists "stock_analysis"."public"."stg_stock_data__dbt_backup" cascade
+[0m18:01:48.722396 [debug] [Thread-1  ]: SQL status: DROP VIEW in 0.005 seconds
+[0m18:01:48.729551 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: Close
+[0m18:01:48.736889 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5965d0d6-3ad6-4e96-a29c-24129cf0f723', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x781717ca2d60>]}
+[0m18:01:48.739509 [info ] [Thread-1  ]: 1 of 4 OK created sql view model public.stg_stock_data ......................... [[32mCREATE VIEW[0m in 0.40s]
+[0m18:01:48.742810 [debug] [Thread-1  ]: Finished running node model.stock_analysis.stg_stock_data
+[0m18:01:48.746307 [debug] [Thread-3  ]: Began running node model.stock_analysis.int_stock_metrics
+[0m18:01:48.748899 [info ] [Thread-3  ]: 2 of 4 START sql table model public.int_stock_metrics .......................... [RUN]
+[0m18:01:48.751718 [debug] [Thread-3  ]: Acquiring new postgres connection 'model.stock_analysis.int_stock_metrics'
+[0m18:01:48.753826 [debug] [Thread-3  ]: Began compiling node model.stock_analysis.int_stock_metrics
+[0m18:01:48.767763 [debug] [Thread-3  ]: Writing injected SQL for node "model.stock_analysis.int_stock_metrics"
+[0m18:01:48.771725 [debug] [Thread-3  ]: Began executing node model.stock_analysis.int_stock_metrics
+[0m18:01:48.850702 [debug] [Thread-3  ]: Writing runtime sql for node "model.stock_analysis.int_stock_metrics"
+[0m18:01:48.853178 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m18:01:48.854839 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: BEGIN
+[0m18:01:48.856945 [debug] [Thread-3  ]: Opening a new connection, currently in state init
+[0m18:01:48.910126 [debug] [Thread-3  ]: SQL status: BEGIN in 0.053 seconds
+[0m18:01:48.912084 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m18:01:48.913990 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_stock_metrics"} */
+
+  
+    
+
+  create  table "stock_analysis"."public"."int_stock_metrics__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+WITH daily_metrics AS (
+    SELECT
+        symbol,
+        DATE(timestamp) as trade_date,
+        AVG(price) as avg_price,
+        MAX(price) as high_price,
+        MIN(price) as low_price,
+        -- Remove FIRST_VALUE and LAST_VALUE here, instead calculate in a separate CTE
+        SUM(volume) as daily_volume
+    FROM "stock_analysis"."public"."stg_stock_data"
+    GROUP BY symbol, DATE(timestamp)
+),
+
+open_close_prices AS (
+    SELECT
+        symbol,
+        DATE(timestamp) as trade_date,
+        FIRST_VALUE(price) OVER (PARTITION BY symbol, DATE(timestamp) ORDER BY timestamp) as open_price,
+        LAST_VALUE(price) OVER (PARTITION BY symbol, DATE(timestamp) ORDER BY timestamp ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) as close_price
+    FROM "stock_analysis"."public"."stg_stock_data"
+),
+
+volatility AS (
+    SELECT
+        dm.symbol,
+        dm.trade_date,
+        (dm.high_price - dm.low_price) / ((dm.high_price + dm.low_price) / 2) * 100 as daily_volatility
+    FROM daily_metrics dm
+)
+
+SELECT
+    dm.symbol,
+    dm.trade_date,
+    dm.avg_price,
+    dm.high_price,
+    dm.low_price,
+    op.open_price,
+    op.close_price,
+    dm.daily_volume,
+    vol.daily_volatility,
+    (op.close_price - op.open_price) / op.open_price * 100 as daily_return
+FROM daily_metrics dm
+JOIN open_close_prices op ON dm.symbol = op.symbol AND dm.trade_date = op.trade_date
+JOIN volatility vol ON dm.symbol = vol.symbol AND dm.trade_date = vol.trade_date
+  );
+  
+[0m18:01:49.001311 [debug] [Thread-3  ]: SQL status: SELECT 930 in 0.086 seconds
+[0m18:01:49.013766 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m18:01:49.015039 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_stock_metrics"} */
+alter table "stock_analysis"."public"."int_stock_metrics__dbt_tmp" rename to "int_stock_metrics"
+[0m18:01:49.018733 [debug] [Thread-3  ]: SQL status: ALTER TABLE in 0.002 seconds
+[0m18:01:49.034168 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: COMMIT
+[0m18:01:49.035722 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m18:01:49.037475 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: COMMIT
+[0m18:01:49.040828 [debug] [Thread-3  ]: SQL status: COMMIT in 0.002 seconds
+[0m18:01:49.048885 [debug] [Thread-3  ]: Applying DROP to: "stock_analysis"."public"."int_stock_metrics__dbt_backup"
+[0m18:01:49.056772 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m18:01:49.058212 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_stock_metrics"} */
+drop table if exists "stock_analysis"."public"."int_stock_metrics__dbt_backup" cascade
+[0m18:01:49.060591 [debug] [Thread-3  ]: SQL status: DROP TABLE in 0.001 seconds
+[0m18:01:49.065041 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: Close
+[0m18:01:49.067925 [debug] [Thread-3  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5965d0d6-3ad6-4e96-a29c-24129cf0f723', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7817149c4820>]}
+[0m18:01:49.071292 [info ] [Thread-3  ]: 2 of 4 OK created sql table model public.int_stock_metrics ..................... [[32mSELECT 930[0m in 0.32s]
+[0m18:01:49.074066 [debug] [Thread-3  ]: Finished running node model.stock_analysis.int_stock_metrics
+[0m18:01:49.076547 [debug] [Thread-2  ]: Began running node model.stock_analysis.int_sector_analysis
+[0m18:01:49.079682 [info ] [Thread-2  ]: 3 of 4 START sql table model public.int_sector_analysis ........................ [RUN]
+[0m18:01:49.082782 [debug] [Thread-2  ]: Acquiring new postgres connection 'model.stock_analysis.int_sector_analysis'
+[0m18:01:49.084501 [debug] [Thread-2  ]: Began compiling node model.stock_analysis.int_sector_analysis
+[0m18:01:49.092560 [debug] [Thread-1  ]: Began running node model.stock_analysis.price_analytics
+[0m18:01:49.095506 [info ] [Thread-1  ]: 4 of 4 START sql table model public.price_analytics ............................ [RUN]
+[0m18:01:49.104947 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.stock_analysis.stg_stock_data, now model.stock_analysis.price_analytics)
+[0m18:01:49.108768 [debug] [Thread-2  ]: Writing injected SQL for node "model.stock_analysis.int_sector_analysis"
+[0m18:01:49.110607 [debug] [Thread-1  ]: Began compiling node model.stock_analysis.price_analytics
+[0m18:01:49.125622 [debug] [Thread-2  ]: Began executing node model.stock_analysis.int_sector_analysis
+[0m18:01:49.134686 [debug] [Thread-1  ]: Writing injected SQL for node "model.stock_analysis.price_analytics"
+[0m18:01:49.246538 [debug] [Thread-1  ]: Began executing node model.stock_analysis.price_analytics
+[0m18:01:49.258422 [debug] [Thread-2  ]: Writing runtime sql for node "model.stock_analysis.int_sector_analysis"
+[0m18:01:49.266519 [debug] [Thread-1  ]: Writing runtime sql for node "model.stock_analysis.price_analytics"
+[0m18:01:49.268074 [debug] [Thread-2  ]: Using postgres connection "model.stock_analysis.int_sector_analysis"
+[0m18:01:49.270753 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: BEGIN
+[0m18:01:49.272163 [debug] [Thread-2  ]: Opening a new connection, currently in state init
+[0m18:01:49.274612 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.price_analytics"
+[0m18:01:49.275606 [debug] [Thread-1  ]: On model.stock_analysis.price_analytics: BEGIN
+[0m18:01:49.276822 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m18:01:49.301089 [debug] [Thread-1  ]: SQL status: BEGIN in 0.024 seconds
+[0m18:01:49.303137 [debug] [Thread-2  ]: SQL status: BEGIN in 0.031 seconds
+[0m18:01:49.304979 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.price_analytics"
+[0m18:01:49.306643 [debug] [Thread-2  ]: Using postgres connection "model.stock_analysis.int_sector_analysis"
+[0m18:01:49.308604 [debug] [Thread-1  ]: On model.stock_analysis.price_analytics: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.price_analytics"} */
+
+  
+    
+
+  create  table "stock_analysis"."public"."price_analytics__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+WITH moving_averages AS (
+    SELECT
+        symbol,
+        trade_date,
+        AVG(avg_price) OVER (PARTITION BY symbol ORDER BY trade_date ROWS BETWEEN 4 PRECEDING AND CURRENT ROW) as ma_5_day,
+        AVG(avg_price) OVER (PARTITION BY symbol ORDER BY trade_date ROWS BETWEEN 9 PRECEDING AND CURRENT ROW) as ma_10_day,
+        AVG(avg_price) OVER (PARTITION BY symbol ORDER BY trade_date ROWS BETWEEN 19 PRECEDING AND CURRENT ROW) as ma_20_day
+    FROM "stock_analysis"."public"."int_stock_metrics"
+),
+
+price_momentum AS (
+    SELECT
+        symbol,
+        trade_date,
+        (close_price - LAG(close_price, 5) OVER (PARTITION BY symbol ORDER BY trade_date)) / 
+        LAG(close_price, 5) OVER (PARTITION BY symbol ORDER BY trade_date) * 100 as momentum_5_day
+    FROM "stock_analysis"."public"."int_stock_metrics"
+)
+
+SELECT
+    m.symbol,
+    m.trade_date,
+    s.avg_price,
+    s.open_price,
+    s.close_price,
+    s.high_price,
+    s.low_price,
+    s.daily_volume,
+    s.daily_volatility,
+    s.daily_return,
+    m.ma_5_day,
+    m.ma_10_day,
+    m.ma_20_day,
+    p.momentum_5_day,
+    CASE
+        WHEN m.ma_5_day > m.ma_20_day THEN 'Bullish'
+        WHEN m.ma_5_day < m.ma_20_day THEN 'Bearish'
+        ELSE 'Neutral'
+    END as trend_signal
+FROM "stock_analysis"."public"."int_stock_metrics" s
+JOIN moving_averages m ON s.symbol = m.symbol AND s.trade_date = m.trade_date
+LEFT JOIN price_momentum p ON s.symbol = p.symbol AND s.trade_date = p.trade_date
+  );
+  
+[0m18:01:49.310706 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_sector_analysis"} */
+
+  
+    
+
+  create  table "stock_analysis"."public"."int_sector_analysis__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+WITH sector_daily AS (
+    SELECT
+        sector,
+        DATE(timestamp) as trade_date,
+        AVG(price) as sector_avg_price,
+        SUM(volume) as sector_volume,
+        AVG(change_percent) as sector_avg_change
+    FROM "stock_analysis"."public"."stg_stock_data"
+    GROUP BY sector, DATE(timestamp)
+),
+
+sector_volatility AS (
+    SELECT
+        s.sector,
+        m.trade_date,
+        STDDEV(m.daily_volatility) as sector_volatility
+    FROM "stock_analysis"."public"."int_stock_metrics" m
+    JOIN "stock_analysis"."public"."stg_stock_data" s ON m.symbol = s.symbol
+    GROUP BY s.sector, m.trade_date
+)
+
+SELECT
+    sd.sector,
+    sd.trade_date,
+    sd.sector_avg_price,
+    sd.sector_volume,
+    sd.sector_avg_change,
+    sv.sector_volatility,
+    RANK() OVER (PARTITION BY sd.trade_date ORDER BY sd.sector_avg_change DESC) as performance_rank
+FROM sector_daily sd
+LEFT JOIN sector_volatility sv ON sd.sector = sv.sector AND sd.trade_date = sv.trade_date
+  );
+  
+[0m18:01:49.439832 [debug] [Thread-2  ]: SQL status: SELECT 5 in 0.126 seconds
+[0m18:01:49.452987 [debug] [Thread-2  ]: Using postgres connection "model.stock_analysis.int_sector_analysis"
+[0m18:01:49.455316 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_sector_analysis"} */
+alter table "stock_analysis"."public"."int_sector_analysis__dbt_tmp" rename to "int_sector_analysis"
+[0m18:01:49.458795 [debug] [Thread-2  ]: SQL status: ALTER TABLE in 0.002 seconds
+[0m18:01:49.468614 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: COMMIT
+[0m18:01:49.470952 [debug] [Thread-2  ]: Using postgres connection "model.stock_analysis.int_sector_analysis"
+[0m18:01:49.473765 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: COMMIT
+[0m18:01:49.488608 [debug] [Thread-2  ]: SQL status: COMMIT in 0.012 seconds
+[0m18:01:49.499800 [debug] [Thread-2  ]: Applying DROP to: "stock_analysis"."public"."int_sector_analysis__dbt_backup"
+[0m18:01:49.503789 [debug] [Thread-2  ]: Using postgres connection "model.stock_analysis.int_sector_analysis"
+[0m18:01:49.506159 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_sector_analysis"} */
+drop table if exists "stock_analysis"."public"."int_sector_analysis__dbt_backup" cascade
+[0m18:01:49.509720 [debug] [Thread-2  ]: SQL status: DROP TABLE in 0.001 seconds
+[0m18:01:49.516031 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: Close
+[0m18:01:49.519515 [debug] [Thread-2  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5965d0d6-3ad6-4e96-a29c-24129cf0f723', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7817149cdd60>]}
+[0m18:01:49.522563 [info ] [Thread-2  ]: 3 of 4 OK created sql table model public.int_sector_analysis ................... [[32mSELECT 5[0m in 0.44s]
+[0m18:01:49.526161 [debug] [Thread-2  ]: Finished running node model.stock_analysis.int_sector_analysis
+[0m18:02:45.803607 [debug] [Thread-1  ]: SQL status: SELECT 8043570 in 56.490 seconds
+[0m18:02:45.818240 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.price_analytics"
+[0m18:02:45.820052 [debug] [Thread-1  ]: On model.stock_analysis.price_analytics: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.price_analytics"} */
+alter table "stock_analysis"."public"."price_analytics__dbt_tmp" rename to "price_analytics"
+[0m18:02:45.823054 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.002 seconds
+[0m18:02:45.830783 [debug] [Thread-1  ]: On model.stock_analysis.price_analytics: COMMIT
+[0m18:02:45.832078 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.price_analytics"
+[0m18:02:45.833717 [debug] [Thread-1  ]: On model.stock_analysis.price_analytics: COMMIT
+[0m18:02:45.863013 [debug] [Thread-1  ]: SQL status: COMMIT in 0.028 seconds
+[0m18:02:45.875097 [debug] [Thread-1  ]: Applying DROP to: "stock_analysis"."public"."price_analytics__dbt_backup"
+[0m18:02:45.879054 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.price_analytics"
+[0m18:02:45.880572 [debug] [Thread-1  ]: On model.stock_analysis.price_analytics: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.price_analytics"} */
+drop table if exists "stock_analysis"."public"."price_analytics__dbt_backup" cascade
+[0m18:02:45.882947 [debug] [Thread-1  ]: SQL status: DROP TABLE in 0.001 seconds
+[0m18:02:45.888372 [debug] [Thread-1  ]: On model.stock_analysis.price_analytics: Close
+[0m18:02:45.891036 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5965d0d6-3ad6-4e96-a29c-24129cf0f723', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7817148e4940>]}
+[0m18:02:45.894168 [info ] [Thread-1  ]: 4 of 4 OK created sql table model public.price_analytics ....................... [[32mSELECT 8043570[0m in 56.79s]
+[0m18:02:45.898037 [debug] [Thread-1  ]: Finished running node model.stock_analysis.price_analytics
+[0m18:02:45.907034 [debug] [MainThread]: Using postgres connection "master"
+[0m18:02:45.908548 [debug] [MainThread]: On master: BEGIN
+[0m18:02:45.910529 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m18:02:45.949104 [debug] [MainThread]: SQL status: BEGIN in 0.039 seconds
+[0m18:02:45.950902 [debug] [MainThread]: On master: COMMIT
+[0m18:02:45.952203 [debug] [MainThread]: Using postgres connection "master"
+[0m18:02:45.953644 [debug] [MainThread]: On master: COMMIT
+[0m18:02:45.955790 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m18:02:45.957278 [debug] [MainThread]: On master: Close
+[0m18:02:45.959463 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m18:02:45.961854 [debug] [MainThread]: Connection 'model.stock_analysis.price_analytics' was properly closed.
+[0m18:02:45.963513 [debug] [MainThread]: Connection 'model.stock_analysis.int_stock_metrics' was properly closed.
+[0m18:02:45.965646 [debug] [MainThread]: Connection 'model.stock_analysis.int_sector_analysis' was properly closed.
+[0m18:02:45.967672 [info ] [MainThread]: 
+[0m18:02:45.969906 [info ] [MainThread]: Finished running 3 table models, 1 view model in 0 hours 0 minutes and 58.02 seconds (58.02s).
+[0m18:02:45.975204 [debug] [MainThread]: Command end result
+[0m18:02:46.089919 [info ] [MainThread]: 
+[0m18:02:46.092070 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m18:02:46.093714 [info ] [MainThread]: 
+[0m18:02:46.096006 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 TOTAL=4
+[0m18:02:46.101276 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 61.23479, "process_user_time": 8.035219, "process_kernel_time": 0.605052, "process_mem_max_rss": "111464", "process_in_blocks": "8", "process_out_blocks": "2736"}
+[0m18:02:46.103720 [debug] [MainThread]: Command `dbt run` succeeded at 18:02:46.103087 after 61.24 seconds
+[0m18:02:46.106037 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x781716c551f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x781716a35f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7817179b5ca0>]}
+[0m18:02:46.108127 [debug] [MainThread]: Flushing usage events
+[0m18:02:48.122363 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:01:08.945445 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9979160280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a99788fc4c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9978a12610>]}
+
+
+============================== 09:01:08.962314 | 53ef1138-717e-4327-993b-1b0f1c67caed ==============================
+[0m09:01:08.962314 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m09:01:08.964610 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/home/sadhana/stock_analysis_project/logs', 'profiles_dir': '/home/sadhana/stock_analysis_project', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m09:01:09.708279 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '53ef1138-717e-4327-993b-1b0f1c67caed', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a99783e3940>]}
+[0m09:01:09.917957 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '53ef1138-717e-4327-993b-1b0f1c67caed', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9978f18460>]}
+[0m09:01:09.926407 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m09:01:09.990936 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m09:01:10.660181 [debug] [MainThread]: Partial parsing enabled: 1 files deleted, 1 files added, 0 files changed.
+[0m09:01:10.661985 [debug] [MainThread]: Partial parsing: added file: stock_analysis://models/marts/market_trend.sql
+[0m09:01:10.663105 [debug] [MainThread]: Partial parsing: deleted file: stock_analysis://models/marts/market_trens.sql
+[0m09:01:11.688952 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '53ef1138-717e-4327-993b-1b0f1c67caed', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a99777adee0>]}
+[0m09:01:12.129579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '53ef1138-717e-4327-993b-1b0f1c67caed', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a99776e8670>]}
+[0m09:01:12.131811 [info ] [MainThread]: Found 5 models, 2 analyses, 4 sources, 423 macros
+[0m09:01:12.133372 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '53ef1138-717e-4327-993b-1b0f1c67caed', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9977d88d90>]}
+[0m09:01:12.138968 [info ] [MainThread]: 
+[0m09:01:12.140485 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m09:01:12.142037 [info ] [MainThread]: 
+[0m09:01:12.144403 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m09:01:12.163046 [debug] [ThreadPool]: Acquiring new postgres connection 'list_stock_analysis'
+[0m09:01:12.484873 [debug] [ThreadPool]: Using postgres connection "list_stock_analysis"
+[0m09:01:12.487082 [debug] [ThreadPool]: On list_stock_analysis: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "connection_name": "list_stock_analysis"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m09:01:12.488982 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:01:12.738484 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.249 seconds
+[0m09:01:12.742875 [debug] [ThreadPool]: On list_stock_analysis: Close
+[0m09:01:12.751380 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_stock_analysis, now list_stock_analysis_public)
+[0m09:01:12.775470 [debug] [ThreadPool]: Using postgres connection "list_stock_analysis_public"
+[0m09:01:12.778952 [debug] [ThreadPool]: On list_stock_analysis_public: BEGIN
+[0m09:01:12.780745 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:01:12.813554 [debug] [ThreadPool]: SQL status: BEGIN in 0.032 seconds
+[0m09:01:12.814989 [debug] [ThreadPool]: Using postgres connection "list_stock_analysis_public"
+[0m09:01:12.816269 [debug] [ThreadPool]: On list_stock_analysis_public: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "connection_name": "list_stock_analysis_public"} */
+select
+      'stock_analysis' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'stock_analysis' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'stock_analysis' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m09:01:12.891382 [debug] [ThreadPool]: SQL status: SELECT 8 in 0.074 seconds
+[0m09:01:12.895740 [debug] [ThreadPool]: On list_stock_analysis_public: ROLLBACK
+[0m09:01:12.897386 [debug] [ThreadPool]: On list_stock_analysis_public: Close
+[0m09:01:12.920320 [debug] [MainThread]: Using postgres connection "master"
+[0m09:01:12.922016 [debug] [MainThread]: On master: BEGIN
+[0m09:01:12.923068 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:01:12.945908 [debug] [MainThread]: SQL status: BEGIN in 0.023 seconds
+[0m09:01:12.947495 [debug] [MainThread]: Using postgres connection "master"
+[0m09:01:12.948913 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m09:01:13.044968 [debug] [MainThread]: SQL status: SELECT 1 in 0.094 seconds
+[0m09:01:13.049282 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '53ef1138-717e-4327-993b-1b0f1c67caed', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a99770ee610>]}
+[0m09:01:13.052208 [debug] [MainThread]: On master: ROLLBACK
+[0m09:01:13.054542 [debug] [MainThread]: Using postgres connection "master"
+[0m09:01:13.055435 [debug] [MainThread]: On master: BEGIN
+[0m09:01:13.058486 [debug] [MainThread]: SQL status: BEGIN in 0.002 seconds
+[0m09:01:13.059746 [debug] [MainThread]: On master: COMMIT
+[0m09:01:13.061260 [debug] [MainThread]: Using postgres connection "master"
+[0m09:01:13.062648 [debug] [MainThread]: On master: COMMIT
+[0m09:01:13.064529 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m09:01:13.065455 [debug] [MainThread]: On master: Close
+[0m09:01:13.078931 [debug] [Thread-1  ]: Began running node model.stock_analysis.stg_stock_data
+[0m09:01:13.081306 [info ] [Thread-1  ]: 1 of 4 START sql view model public.stg_stock_data .............................. [RUN]
+[0m09:01:13.083902 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_stock_analysis_public, now model.stock_analysis.stg_stock_data)
+[0m09:01:13.085587 [debug] [Thread-1  ]: Began compiling node model.stock_analysis.stg_stock_data
+[0m09:01:13.117238 [debug] [Thread-1  ]: Writing injected SQL for node "model.stock_analysis.stg_stock_data"
+[0m09:01:13.120678 [debug] [Thread-1  ]: Began executing node model.stock_analysis.stg_stock_data
+[0m09:01:13.233425 [debug] [Thread-1  ]: Writing runtime sql for node "model.stock_analysis.stg_stock_data"
+[0m09:01:13.236127 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m09:01:13.237432 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: BEGIN
+[0m09:01:13.238703 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m09:01:13.266641 [debug] [Thread-1  ]: SQL status: BEGIN in 0.027 seconds
+[0m09:01:13.268141 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m09:01:13.269957 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+
+  create view "stock_analysis"."public"."stg_stock_data__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT
+    id,
+    symbol,
+    price,
+    volume,
+    change_percent,
+    timestamp,
+    sector,
+    processed_timestamp
+FROM "stock_analysis"."public"."raw_stock_data"
+  );
+[0m09:01:13.355414 [debug] [Thread-1  ]: SQL status: CREATE VIEW in 0.084 seconds
+[0m09:01:13.376491 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m09:01:13.377935 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+alter table "stock_analysis"."public"."stg_stock_data" rename to "stg_stock_data__dbt_backup"
+[0m09:01:13.385835 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.007 seconds
+[0m09:01:13.395345 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m09:01:13.396740 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+alter table "stock_analysis"."public"."stg_stock_data__dbt_tmp" rename to "stg_stock_data"
+[0m09:01:13.400056 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.002 seconds
+[0m09:01:13.458042 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: COMMIT
+[0m09:01:13.459809 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m09:01:13.461762 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: COMMIT
+[0m09:01:13.466469 [debug] [Thread-1  ]: SQL status: COMMIT in 0.003 seconds
+[0m09:01:13.488469 [debug] [Thread-1  ]: Applying DROP to: "stock_analysis"."public"."stg_stock_data__dbt_backup"
+[0m09:01:13.503831 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m09:01:13.505133 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+drop view if exists "stock_analysis"."public"."stg_stock_data__dbt_backup" cascade
+[0m09:01:13.522421 [debug] [Thread-1  ]: SQL status: DROP VIEW in 0.016 seconds
+[0m09:01:13.529984 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: Close
+[0m09:01:13.536814 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '53ef1138-717e-4327-993b-1b0f1c67caed', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a997a1a3df0>]}
+[0m09:01:13.539574 [info ] [Thread-1  ]: 1 of 4 OK created sql view model public.stg_stock_data ......................... [[32mCREATE VIEW[0m in 0.45s]
+[0m09:01:13.541951 [debug] [Thread-1  ]: Finished running node model.stock_analysis.stg_stock_data
+[0m09:01:13.546085 [debug] [Thread-3  ]: Began running node model.stock_analysis.int_stock_metrics
+[0m09:01:13.549024 [info ] [Thread-3  ]: 2 of 4 START sql table model public.int_stock_metrics .......................... [RUN]
+[0m09:01:13.551439 [debug] [Thread-3  ]: Acquiring new postgres connection 'model.stock_analysis.int_stock_metrics'
+[0m09:01:13.554428 [debug] [Thread-3  ]: Began compiling node model.stock_analysis.int_stock_metrics
+[0m09:01:13.576178 [debug] [Thread-3  ]: Writing injected SQL for node "model.stock_analysis.int_stock_metrics"
+[0m09:01:13.579502 [debug] [Thread-3  ]: Began executing node model.stock_analysis.int_stock_metrics
+[0m09:01:13.686385 [debug] [Thread-3  ]: Writing runtime sql for node "model.stock_analysis.int_stock_metrics"
+[0m09:01:13.689129 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m09:01:13.690473 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: BEGIN
+[0m09:01:13.691698 [debug] [Thread-3  ]: Opening a new connection, currently in state init
+[0m09:01:13.717867 [debug] [Thread-3  ]: SQL status: BEGIN in 0.026 seconds
+[0m09:01:13.719723 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m09:01:13.720827 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_stock_metrics"} */
+
+  
+    
+
+  create  table "stock_analysis"."public"."int_stock_metrics__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+WITH daily_metrics AS (
+    SELECT
+        symbol,
+        DATE(timestamp) as trade_date,
+        AVG(price) as avg_price,
+        MAX(price) as high_price,
+        MIN(price) as low_price,
+        -- Remove FIRST_VALUE and LAST_VALUE here, instead calculate in a separate CTE
+        SUM(volume) as daily_volume
+    FROM "stock_analysis"."public"."stg_stock_data"
+    GROUP BY symbol, DATE(timestamp)
+),
+
+open_close_prices AS (
+    SELECT
+        symbol,
+        DATE(timestamp) as trade_date,
+        FIRST_VALUE(price) OVER (PARTITION BY symbol, DATE(timestamp) ORDER BY timestamp) as open_price,
+        LAST_VALUE(price) OVER (PARTITION BY symbol, DATE(timestamp) ORDER BY timestamp ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) as close_price
+    FROM "stock_analysis"."public"."stg_stock_data"
+),
+
+volatility AS (
+    SELECT
+        dm.symbol,
+        dm.trade_date,
+        (dm.high_price - dm.low_price) / ((dm.high_price + dm.low_price) / 2) * 100 as daily_volatility
+    FROM daily_metrics dm
+)
+
+SELECT
+    dm.symbol,
+    dm.trade_date,
+    dm.avg_price,
+    dm.high_price,
+    dm.low_price,
+    op.open_price,
+    op.close_price,
+    dm.daily_volume,
+    vol.daily_volatility,
+    (op.close_price - op.open_price) / op.open_price * 100 as daily_return
+FROM daily_metrics dm
+JOIN open_close_prices op ON dm.symbol = op.symbol AND dm.trade_date = op.trade_date
+JOIN volatility vol ON dm.symbol = vol.symbol AND dm.trade_date = vol.trade_date
+  );
+  
+[0m09:01:13.854907 [debug] [Thread-3  ]: SQL status: SELECT 930 in 0.132 seconds
+[0m09:01:13.867800 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m09:01:13.869110 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_stock_metrics"} */
+alter table "stock_analysis"."public"."int_stock_metrics" rename to "int_stock_metrics__dbt_backup"
+[0m09:01:13.872654 [debug] [Thread-3  ]: SQL status: ALTER TABLE in 0.002 seconds
+[0m09:01:13.881459 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m09:01:13.884068 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_stock_metrics"} */
+alter table "stock_analysis"."public"."int_stock_metrics__dbt_tmp" rename to "int_stock_metrics"
+[0m09:01:13.888801 [debug] [Thread-3  ]: SQL status: ALTER TABLE in 0.003 seconds
+[0m09:01:13.906948 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: COMMIT
+[0m09:01:13.908235 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m09:01:13.909722 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: COMMIT
+[0m09:01:13.914879 [debug] [Thread-3  ]: SQL status: COMMIT in 0.004 seconds
+[0m09:01:13.925221 [debug] [Thread-3  ]: Applying DROP to: "stock_analysis"."public"."int_stock_metrics__dbt_backup"
+[0m09:01:13.935383 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m09:01:13.936935 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_stock_metrics"} */
+drop table if exists "stock_analysis"."public"."int_stock_metrics__dbt_backup" cascade
+[0m09:01:14.052653 [debug] [Thread-3  ]: SQL status: DROP TABLE in 0.115 seconds
+[0m09:01:14.057226 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: Close
+[0m09:01:14.059723 [debug] [Thread-3  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '53ef1138-717e-4327-993b-1b0f1c67caed', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a997a1a3df0>]}
+[0m09:01:14.062277 [info ] [Thread-3  ]: 2 of 4 OK created sql table model public.int_stock_metrics ..................... [[32mSELECT 930[0m in 0.51s]
+[0m09:01:14.066906 [debug] [Thread-3  ]: Finished running node model.stock_analysis.int_stock_metrics
+[0m09:01:14.070974 [debug] [Thread-2  ]: Began running node model.stock_analysis.int_sector_analysis
+[0m09:01:14.072905 [info ] [Thread-2  ]: 3 of 4 START sql table model public.int_sector_analysis ........................ [RUN]
+[0m09:01:14.075090 [debug] [Thread-1  ]: Began running node model.stock_analysis.price_analytics
+[0m09:01:14.077240 [debug] [Thread-2  ]: Acquiring new postgres connection 'model.stock_analysis.int_sector_analysis'
+[0m09:01:14.079237 [info ] [Thread-1  ]: 4 of 4 START sql table model public.price_analytics ............................ [RUN]
+[0m09:01:14.081552 [debug] [Thread-2  ]: Began compiling node model.stock_analysis.int_sector_analysis
+[0m09:01:14.083690 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.stock_analysis.stg_stock_data, now model.stock_analysis.price_analytics)
+[0m09:01:14.097771 [debug] [Thread-1  ]: Began compiling node model.stock_analysis.price_analytics
+[0m09:01:14.108125 [debug] [Thread-2  ]: Writing injected SQL for node "model.stock_analysis.int_sector_analysis"
+[0m09:01:14.218831 [debug] [Thread-1  ]: Writing injected SQL for node "model.stock_analysis.price_analytics"
+[0m09:01:14.220923 [debug] [Thread-2  ]: Began executing node model.stock_analysis.int_sector_analysis
+[0m09:01:14.228301 [debug] [Thread-1  ]: Began executing node model.stock_analysis.price_analytics
+[0m09:01:14.256010 [debug] [Thread-1  ]: Writing runtime sql for node "model.stock_analysis.price_analytics"
+[0m09:01:14.253031 [debug] [Thread-2  ]: Writing runtime sql for node "model.stock_analysis.int_sector_analysis"
+[0m09:01:14.260257 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.price_analytics"
+[0m09:01:14.261701 [debug] [Thread-1  ]: On model.stock_analysis.price_analytics: BEGIN
+[0m09:01:14.263504 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m09:01:14.266701 [debug] [Thread-2  ]: Using postgres connection "model.stock_analysis.int_sector_analysis"
+[0m09:01:14.268613 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: BEGIN
+[0m09:01:14.270853 [debug] [Thread-2  ]: Opening a new connection, currently in state init
+[0m09:01:14.289680 [debug] [Thread-1  ]: SQL status: BEGIN in 0.026 seconds
+[0m09:01:14.291111 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.price_analytics"
+[0m09:01:14.293071 [debug] [Thread-1  ]: On model.stock_analysis.price_analytics: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.price_analytics"} */
+
+  
+    
+
+  create  table "stock_analysis"."public"."price_analytics__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+WITH moving_averages AS (
+    SELECT
+        symbol,
+        trade_date,
+        AVG(avg_price) OVER (PARTITION BY symbol ORDER BY trade_date ROWS BETWEEN 4 PRECEDING AND CURRENT ROW) as ma_5_day,
+        AVG(avg_price) OVER (PARTITION BY symbol ORDER BY trade_date ROWS BETWEEN 9 PRECEDING AND CURRENT ROW) as ma_10_day,
+        AVG(avg_price) OVER (PARTITION BY symbol ORDER BY trade_date ROWS BETWEEN 19 PRECEDING AND CURRENT ROW) as ma_20_day
+    FROM "stock_analysis"."public"."int_stock_metrics"
+),
+
+price_momentum AS (
+    SELECT
+        symbol,
+        trade_date,
+        (close_price - LAG(close_price, 5) OVER (PARTITION BY symbol ORDER BY trade_date)) / 
+        LAG(close_price, 5) OVER (PARTITION BY symbol ORDER BY trade_date) * 100 as momentum_5_day
+    FROM "stock_analysis"."public"."int_stock_metrics"
+)
+
+SELECT
+    m.symbol,
+    m.trade_date,
+    s.avg_price,
+    s.open_price,
+    s.close_price,
+    s.high_price,
+    s.low_price,
+    s.daily_volume,
+    s.daily_volatility,
+    s.daily_return,
+    m.ma_5_day,
+    m.ma_10_day,
+    m.ma_20_day,
+    p.momentum_5_day,
+    CASE
+        WHEN m.ma_5_day > m.ma_20_day THEN 'Bullish'
+        WHEN m.ma_5_day < m.ma_20_day THEN 'Bearish'
+        ELSE 'Neutral'
+    END as trend_signal
+FROM "stock_analysis"."public"."int_stock_metrics" s
+JOIN moving_averages m ON s.symbol = m.symbol AND s.trade_date = m.trade_date
+LEFT JOIN price_momentum p ON s.symbol = p.symbol AND s.trade_date = p.trade_date
+  );
+  
+[0m09:01:14.297202 [debug] [Thread-2  ]: SQL status: BEGIN in 0.027 seconds
+[0m09:01:14.299526 [debug] [Thread-2  ]: Using postgres connection "model.stock_analysis.int_sector_analysis"
+[0m09:01:14.302847 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_sector_analysis"} */
+
+  
+    
+
+  create  table "stock_analysis"."public"."int_sector_analysis__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+WITH sector_daily AS (
+    SELECT
+        sector,
+        DATE(timestamp) as trade_date,
+        AVG(price) as sector_avg_price,
+        SUM(volume) as sector_volume,
+        AVG(change_percent) as sector_avg_change
+    FROM "stock_analysis"."public"."stg_stock_data"
+    GROUP BY sector, DATE(timestamp)
+),
+
+sector_volatility AS (
+    SELECT
+        s.sector,
+        m.trade_date,
+        STDDEV(m.daily_volatility) as sector_volatility
+    FROM "stock_analysis"."public"."int_stock_metrics" m
+    JOIN "stock_analysis"."public"."stg_stock_data" s ON m.symbol = s.symbol
+    GROUP BY s.sector, m.trade_date
+)
+
+SELECT
+    sd.sector,
+    sd.trade_date,
+    sd.sector_avg_price,
+    sd.sector_volume,
+    sd.sector_avg_change,
+    sv.sector_volatility,
+    RANK() OVER (PARTITION BY sd.trade_date ORDER BY sd.sector_avg_change DESC) as performance_rank
+FROM sector_daily sd
+LEFT JOIN sector_volatility sv ON sd.sector = sv.sector AND sd.trade_date = sv.trade_date
+  );
+  
+[0m09:01:14.423232 [debug] [Thread-2  ]: SQL status: SELECT 5 in 0.118 seconds
+[0m09:01:14.439578 [debug] [Thread-2  ]: Using postgres connection "model.stock_analysis.int_sector_analysis"
+[0m09:01:14.441764 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_sector_analysis"} */
+alter table "stock_analysis"."public"."int_sector_analysis" rename to "int_sector_analysis__dbt_backup"
+[0m09:01:14.446290 [debug] [Thread-2  ]: SQL status: ALTER TABLE in 0.003 seconds
+[0m09:01:14.461661 [debug] [Thread-2  ]: Using postgres connection "model.stock_analysis.int_sector_analysis"
+[0m09:01:14.463735 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_sector_analysis"} */
+alter table "stock_analysis"."public"."int_sector_analysis__dbt_tmp" rename to "int_sector_analysis"
+[0m09:01:14.467114 [debug] [Thread-2  ]: SQL status: ALTER TABLE in 0.001 seconds
+[0m09:01:14.479032 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: COMMIT
+[0m09:01:14.481737 [debug] [Thread-2  ]: Using postgres connection "model.stock_analysis.int_sector_analysis"
+[0m09:01:14.483937 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: COMMIT
+[0m09:01:14.490711 [debug] [Thread-2  ]: SQL status: COMMIT in 0.005 seconds
+[0m09:01:14.503803 [debug] [Thread-2  ]: Applying DROP to: "stock_analysis"."public"."int_sector_analysis__dbt_backup"
+[0m09:01:14.509752 [debug] [Thread-2  ]: Using postgres connection "model.stock_analysis.int_sector_analysis"
+[0m09:01:14.512069 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_sector_analysis"} */
+drop table if exists "stock_analysis"."public"."int_sector_analysis__dbt_backup" cascade
+[0m09:01:14.521625 [debug] [Thread-2  ]: SQL status: DROP TABLE in 0.006 seconds
+[0m09:01:14.525837 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: Close
+[0m09:01:14.528873 [debug] [Thread-2  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '53ef1138-717e-4327-993b-1b0f1c67caed', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9976f10610>]}
+[0m09:01:14.532785 [info ] [Thread-2  ]: 3 of 4 OK created sql table model public.int_sector_analysis ................... [[32mSELECT 5[0m in 0.45s]
+[0m09:01:14.536187 [debug] [Thread-2  ]: Finished running node model.stock_analysis.int_sector_analysis
+[0m09:02:12.048788 [debug] [Thread-1  ]: SQL status: SELECT 8043570 in 57.753 seconds
+[0m09:02:12.061977 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.price_analytics"
+[0m09:02:12.063321 [debug] [Thread-1  ]: On model.stock_analysis.price_analytics: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.price_analytics"} */
+alter table "stock_analysis"."public"."price_analytics" rename to "price_analytics__dbt_backup"
+[0m09:02:12.067236 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.003 seconds
+[0m09:02:12.078572 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.price_analytics"
+[0m09:02:12.080450 [debug] [Thread-1  ]: On model.stock_analysis.price_analytics: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.price_analytics"} */
+alter table "stock_analysis"."public"."price_analytics__dbt_tmp" rename to "price_analytics"
+[0m09:02:12.082946 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.001 seconds
+[0m09:02:12.089891 [debug] [Thread-1  ]: On model.stock_analysis.price_analytics: COMMIT
+[0m09:02:12.091111 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.price_analytics"
+[0m09:02:12.092556 [debug] [Thread-1  ]: On model.stock_analysis.price_analytics: COMMIT
+[0m09:02:12.118868 [debug] [Thread-1  ]: SQL status: COMMIT in 0.025 seconds
+[0m09:02:12.130142 [debug] [Thread-1  ]: Applying DROP to: "stock_analysis"."public"."price_analytics__dbt_backup"
+[0m09:02:12.133370 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.price_analytics"
+[0m09:02:12.134876 [debug] [Thread-1  ]: On model.stock_analysis.price_analytics: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.price_analytics"} */
+drop table if exists "stock_analysis"."public"."price_analytics__dbt_backup" cascade
+[0m09:02:12.245885 [debug] [Thread-1  ]: SQL status: DROP TABLE in 0.109 seconds
+[0m09:02:12.251197 [debug] [Thread-1  ]: On model.stock_analysis.price_analytics: Close
+[0m09:02:12.253821 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '53ef1138-717e-4327-993b-1b0f1c67caed', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a99770e6eb0>]}
+[0m09:02:12.257821 [info ] [Thread-1  ]: 4 of 4 OK created sql table model public.price_analytics ....................... [[32mSELECT 8043570[0m in 58.17s]
+[0m09:02:12.261153 [debug] [Thread-1  ]: Finished running node model.stock_analysis.price_analytics
+[0m09:02:12.270184 [debug] [MainThread]: Using postgres connection "master"
+[0m09:02:12.272291 [debug] [MainThread]: On master: BEGIN
+[0m09:02:12.275147 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m09:02:12.324611 [debug] [MainThread]: SQL status: BEGIN in 0.049 seconds
+[0m09:02:12.326725 [debug] [MainThread]: On master: COMMIT
+[0m09:02:12.328633 [debug] [MainThread]: Using postgres connection "master"
+[0m09:02:12.330233 [debug] [MainThread]: On master: COMMIT
+[0m09:02:12.332851 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m09:02:12.334134 [debug] [MainThread]: On master: Close
+[0m09:02:12.336335 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m09:02:12.338264 [debug] [MainThread]: Connection 'model.stock_analysis.price_analytics' was properly closed.
+[0m09:02:12.339965 [debug] [MainThread]: Connection 'model.stock_analysis.int_stock_metrics' was properly closed.
+[0m09:02:12.341560 [debug] [MainThread]: Connection 'model.stock_analysis.int_sector_analysis' was properly closed.
+[0m09:02:12.343899 [info ] [MainThread]: 
+[0m09:02:12.345687 [info ] [MainThread]: Finished running 3 table models, 1 view model in 0 hours 1 minutes and 0.20 seconds (60.20s).
+[0m09:02:12.350904 [debug] [MainThread]: Command end result
+[0m09:02:12.468310 [info ] [MainThread]: 
+[0m09:02:12.471547 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m09:02:12.473476 [info ] [MainThread]: 
+[0m09:02:12.475227 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 TOTAL=4
+[0m09:02:12.480850 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 63.74771, "process_user_time": 8.467899, "process_kernel_time": 2.845333, "process_mem_max_rss": "111260", "process_in_blocks": "14728", "process_out_blocks": "2736"}
+[0m09:02:12.482406 [debug] [MainThread]: Command `dbt run` succeeded at 09:02:12.481774 after 63.75 seconds
+[0m09:02:12.483950 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9979160280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9979eff040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9977d88490>]}
+[0m09:02:12.485786 [debug] [MainThread]: Flushing usage events
+[0m09:02:13.656270 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:10:13.019939 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d673c2601c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d673b54a520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d673b54d310>]}
+
+
+============================== 09:10:13.035794 | 2c1aff3e-c8df-4974-8a61-0b72f57bb735 ==============================
+[0m09:10:13.035794 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m09:10:13.038352 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/home/sadhana/stock_analysis_project/logs', 'profiles_dir': '/home/sadhana/stock_analysis_project', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m09:10:13.813579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2c1aff3e-c8df-4974-8a61-0b72f57bb735', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d673bfa96a0>]}
+[0m09:10:14.127640 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '2c1aff3e-c8df-4974-8a61-0b72f57bb735', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d673b4e80d0>]}
+[0m09:10:14.130989 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m09:10:14.194148 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m09:10:14.897371 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:10:14.898930 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:10:15.170748 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2c1aff3e-c8df-4974-8a61-0b72f57bb735', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d673ac96f70>]}
+[0m09:10:15.823153 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '2c1aff3e-c8df-4974-8a61-0b72f57bb735', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d673ad3a730>]}
+[0m09:10:15.826213 [info ] [MainThread]: Found 5 models, 2 analyses, 4 sources, 423 macros
+[0m09:10:15.830227 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2c1aff3e-c8df-4974-8a61-0b72f57bb735', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d673a9f8e20>]}
+[0m09:10:15.839445 [info ] [MainThread]: 
+[0m09:10:15.842210 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m09:10:15.845671 [info ] [MainThread]: 
+[0m09:10:15.849214 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m09:10:15.881221 [debug] [ThreadPool]: Acquiring new postgres connection 'list_stock_analysis'
+[0m09:10:16.110704 [debug] [ThreadPool]: Using postgres connection "list_stock_analysis"
+[0m09:10:16.113862 [debug] [ThreadPool]: On list_stock_analysis: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "connection_name": "list_stock_analysis"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m09:10:16.116030 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:10:16.152986 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.037 seconds
+[0m09:10:16.159902 [debug] [ThreadPool]: On list_stock_analysis: Close
+[0m09:10:16.170121 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_stock_analysis, now list_stock_analysis_public)
+[0m09:10:16.203249 [debug] [ThreadPool]: Using postgres connection "list_stock_analysis_public"
+[0m09:10:16.207113 [debug] [ThreadPool]: On list_stock_analysis_public: BEGIN
+[0m09:10:16.208394 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:10:16.244949 [debug] [ThreadPool]: SQL status: BEGIN in 0.036 seconds
+[0m09:10:16.247675 [debug] [ThreadPool]: Using postgres connection "list_stock_analysis_public"
+[0m09:10:16.248834 [debug] [ThreadPool]: On list_stock_analysis_public: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "connection_name": "list_stock_analysis_public"} */
+select
+      'stock_analysis' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'stock_analysis' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'stock_analysis' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m09:10:16.259621 [debug] [ThreadPool]: SQL status: SELECT 8 in 0.008 seconds
+[0m09:10:16.264040 [debug] [ThreadPool]: On list_stock_analysis_public: ROLLBACK
+[0m09:10:16.266194 [debug] [ThreadPool]: On list_stock_analysis_public: Close
+[0m09:10:16.301565 [debug] [MainThread]: Using postgres connection "master"
+[0m09:10:16.303845 [debug] [MainThread]: On master: BEGIN
+[0m09:10:16.306241 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:10:16.338427 [debug] [MainThread]: SQL status: BEGIN in 0.032 seconds
+[0m09:10:16.340274 [debug] [MainThread]: Using postgres connection "master"
+[0m09:10:16.342062 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m09:10:16.386341 [debug] [MainThread]: SQL status: SELECT 1 in 0.042 seconds
+[0m09:10:16.393169 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2c1aff3e-c8df-4974-8a61-0b72f57bb735', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d673ad3aaf0>]}
+[0m09:10:16.395703 [debug] [MainThread]: On master: ROLLBACK
+[0m09:10:16.398145 [debug] [MainThread]: Using postgres connection "master"
+[0m09:10:16.399362 [debug] [MainThread]: On master: BEGIN
+[0m09:10:16.402540 [debug] [MainThread]: SQL status: BEGIN in 0.001 seconds
+[0m09:10:16.405165 [debug] [MainThread]: On master: COMMIT
+[0m09:10:16.407910 [debug] [MainThread]: Using postgres connection "master"
+[0m09:10:16.410844 [debug] [MainThread]: On master: COMMIT
+[0m09:10:16.414060 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m09:10:16.416907 [debug] [MainThread]: On master: Close
+[0m09:10:16.431231 [debug] [Thread-1  ]: Began running node model.stock_analysis.stg_stock_data
+[0m09:10:16.435550 [info ] [Thread-1  ]: 1 of 4 START sql view model public.stg_stock_data .............................. [RUN]
+[0m09:10:16.438148 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_stock_analysis_public, now model.stock_analysis.stg_stock_data)
+[0m09:10:16.440561 [debug] [Thread-1  ]: Began compiling node model.stock_analysis.stg_stock_data
+[0m09:10:16.481005 [debug] [Thread-1  ]: Writing injected SQL for node "model.stock_analysis.stg_stock_data"
+[0m09:10:16.484431 [debug] [Thread-1  ]: Began executing node model.stock_analysis.stg_stock_data
+[0m09:10:16.656244 [debug] [Thread-1  ]: Writing runtime sql for node "model.stock_analysis.stg_stock_data"
+[0m09:10:16.660722 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m09:10:16.662819 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: BEGIN
+[0m09:10:16.665711 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m09:10:16.700001 [debug] [Thread-1  ]: SQL status: BEGIN in 0.035 seconds
+[0m09:10:16.703063 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m09:10:16.705587 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+
+  create view "stock_analysis"."public"."stg_stock_data__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT
+    id,
+    symbol,
+    price,
+    volume,
+    change_percent,
+    timestamp,
+    sector,
+    processed_timestamp
+FROM "stock_analysis"."public"."raw_stock_data"
+  );
+[0m09:10:16.719801 [debug] [Thread-1  ]: SQL status: CREATE VIEW in 0.012 seconds
+[0m09:10:16.748869 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m09:10:16.750708 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+alter table "stock_analysis"."public"."stg_stock_data" rename to "stg_stock_data__dbt_backup"
+[0m09:10:16.753592 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.001 seconds
+[0m09:10:16.770459 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m09:10:16.773778 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+alter table "stock_analysis"."public"."stg_stock_data__dbt_tmp" rename to "stg_stock_data"
+[0m09:10:16.777630 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.001 seconds
+[0m09:10:16.857238 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: COMMIT
+[0m09:10:16.859328 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m09:10:16.861338 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: COMMIT
+[0m09:10:16.865254 [debug] [Thread-1  ]: SQL status: COMMIT in 0.002 seconds
+[0m09:10:16.893979 [debug] [Thread-1  ]: Applying DROP to: "stock_analysis"."public"."stg_stock_data__dbt_backup"
+[0m09:10:16.917871 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.stg_stock_data"
+[0m09:10:16.919555 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.stg_stock_data"} */
+drop view if exists "stock_analysis"."public"."stg_stock_data__dbt_backup" cascade
+[0m09:10:16.925759 [debug] [Thread-1  ]: SQL status: DROP VIEW in 0.003 seconds
+[0m09:10:16.937032 [debug] [Thread-1  ]: On model.stock_analysis.stg_stock_data: Close
+[0m09:10:16.943506 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2c1aff3e-c8df-4974-8a61-0b72f57bb735', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d673a2ace20>]}
+[0m09:10:16.945656 [info ] [Thread-1  ]: 1 of 4 OK created sql view model public.stg_stock_data ......................... [[32mCREATE VIEW[0m in 0.50s]
+[0m09:10:16.949781 [debug] [Thread-1  ]: Finished running node model.stock_analysis.stg_stock_data
+[0m09:10:16.954788 [debug] [Thread-3  ]: Began running node model.stock_analysis.int_stock_metrics
+[0m09:10:16.956765 [info ] [Thread-3  ]: 2 of 4 START sql table model public.int_stock_metrics .......................... [RUN]
+[0m09:10:16.960184 [debug] [Thread-3  ]: Acquiring new postgres connection 'model.stock_analysis.int_stock_metrics'
+[0m09:10:16.961863 [debug] [Thread-3  ]: Began compiling node model.stock_analysis.int_stock_metrics
+[0m09:10:16.980125 [debug] [Thread-3  ]: Writing injected SQL for node "model.stock_analysis.int_stock_metrics"
+[0m09:10:16.984082 [debug] [Thread-3  ]: Began executing node model.stock_analysis.int_stock_metrics
+[0m09:10:17.095255 [debug] [Thread-3  ]: Writing runtime sql for node "model.stock_analysis.int_stock_metrics"
+[0m09:10:17.099330 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m09:10:17.102130 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: BEGIN
+[0m09:10:17.104694 [debug] [Thread-3  ]: Opening a new connection, currently in state init
+[0m09:10:17.139256 [debug] [Thread-3  ]: SQL status: BEGIN in 0.035 seconds
+[0m09:10:17.142013 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m09:10:17.144921 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_stock_metrics"} */
+
+  
+    
+
+  create  table "stock_analysis"."public"."int_stock_metrics__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+WITH daily_metrics AS (
+    SELECT
+        symbol,
+        DATE(timestamp) as trade_date,
+        AVG(price) as avg_price,
+        MAX(price) as high_price,
+        MIN(price) as low_price,
+        -- Remove FIRST_VALUE and LAST_VALUE here, instead calculate in a separate CTE
+        SUM(volume) as daily_volume
+    FROM "stock_analysis"."public"."stg_stock_data"
+    GROUP BY symbol, DATE(timestamp)
+),
+
+open_close_prices AS (
+    SELECT
+        symbol,
+        DATE(timestamp) as trade_date,
+        FIRST_VALUE(price) OVER (PARTITION BY symbol, DATE(timestamp) ORDER BY timestamp) as open_price,
+        LAST_VALUE(price) OVER (PARTITION BY symbol, DATE(timestamp) ORDER BY timestamp ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) as close_price
+    FROM "stock_analysis"."public"."stg_stock_data"
+),
+
+volatility AS (
+    SELECT
+        dm.symbol,
+        dm.trade_date,
+        (dm.high_price - dm.low_price) / ((dm.high_price + dm.low_price) / 2) * 100 as daily_volatility
+    FROM daily_metrics dm
+)
+
+SELECT
+    dm.symbol,
+    dm.trade_date,
+    dm.avg_price,
+    dm.high_price,
+    dm.low_price,
+    op.open_price,
+    op.close_price,
+    dm.daily_volume,
+    vol.daily_volatility,
+    (op.close_price - op.open_price) / op.open_price * 100 as daily_return
+FROM daily_metrics dm
+JOIN open_close_prices op ON dm.symbol = op.symbol AND dm.trade_date = op.trade_date
+JOIN volatility vol ON dm.symbol = vol.symbol AND dm.trade_date = vol.trade_date
+  );
+  
+[0m09:10:17.266302 [debug] [Thread-3  ]: SQL status: SELECT 3620 in 0.119 seconds
+[0m09:10:17.283854 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m09:10:17.285968 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_stock_metrics"} */
+alter table "stock_analysis"."public"."int_stock_metrics" rename to "int_stock_metrics__dbt_backup"
+[0m09:10:17.289108 [debug] [Thread-3  ]: SQL status: ALTER TABLE in 0.002 seconds
+[0m09:10:17.308048 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m09:10:17.310438 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_stock_metrics"} */
+alter table "stock_analysis"."public"."int_stock_metrics__dbt_tmp" rename to "int_stock_metrics"
+[0m09:10:17.313677 [debug] [Thread-3  ]: SQL status: ALTER TABLE in 0.001 seconds
+[0m09:10:17.341947 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: COMMIT
+[0m09:10:17.343396 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m09:10:17.344833 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: COMMIT
+[0m09:10:17.349073 [debug] [Thread-3  ]: SQL status: COMMIT in 0.002 seconds
+[0m09:10:17.362037 [debug] [Thread-3  ]: Applying DROP to: "stock_analysis"."public"."int_stock_metrics__dbt_backup"
+[0m09:10:17.376790 [debug] [Thread-3  ]: Using postgres connection "model.stock_analysis.int_stock_metrics"
+[0m09:10:17.379774 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_stock_metrics"} */
+drop table if exists "stock_analysis"."public"."int_stock_metrics__dbt_backup" cascade
+[0m09:10:17.387307 [debug] [Thread-3  ]: SQL status: DROP TABLE in 0.005 seconds
+[0m09:10:17.394082 [debug] [Thread-3  ]: On model.stock_analysis.int_stock_metrics: Close
+[0m09:10:17.396964 [debug] [Thread-3  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2c1aff3e-c8df-4974-8a61-0b72f57bb735', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d673cf465b0>]}
+[0m09:10:17.399984 [info ] [Thread-3  ]: 2 of 4 OK created sql table model public.int_stock_metrics ..................... [[32mSELECT 3620[0m in 0.44s]
+[0m09:10:17.403514 [debug] [Thread-3  ]: Finished running node model.stock_analysis.int_stock_metrics
+[0m09:10:17.408583 [debug] [Thread-2  ]: Began running node model.stock_analysis.int_sector_analysis
+[0m09:10:17.410417 [info ] [Thread-2  ]: 3 of 4 START sql table model public.int_sector_analysis ........................ [RUN]
+[0m09:10:17.412947 [debug] [Thread-2  ]: Acquiring new postgres connection 'model.stock_analysis.int_sector_analysis'
+[0m09:10:17.414463 [debug] [Thread-2  ]: Began compiling node model.stock_analysis.int_sector_analysis
+[0m09:10:17.433859 [debug] [Thread-1  ]: Began running node model.stock_analysis.price_analytics
+[0m09:10:17.437182 [info ] [Thread-1  ]: 4 of 4 START sql table model public.price_analytics ............................ [RUN]
+[0m09:10:17.449069 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.stock_analysis.stg_stock_data, now model.stock_analysis.price_analytics)
+[0m09:10:17.459092 [debug] [Thread-2  ]: Writing injected SQL for node "model.stock_analysis.int_sector_analysis"
+[0m09:10:17.465454 [debug] [Thread-2  ]: Began executing node model.stock_analysis.int_sector_analysis
+[0m09:10:17.462031 [debug] [Thread-1  ]: Began compiling node model.stock_analysis.price_analytics
+[0m09:10:17.504578 [debug] [Thread-1  ]: Writing injected SQL for node "model.stock_analysis.price_analytics"
+[0m09:10:17.508682 [debug] [Thread-2  ]: Writing runtime sql for node "model.stock_analysis.int_sector_analysis"
+[0m09:10:17.513551 [debug] [Thread-1  ]: Began executing node model.stock_analysis.price_analytics
+[0m09:10:17.529041 [debug] [Thread-2  ]: Using postgres connection "model.stock_analysis.int_sector_analysis"
+[0m09:10:17.530700 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: BEGIN
+[0m09:10:17.532205 [debug] [Thread-2  ]: Opening a new connection, currently in state init
+[0m09:10:17.542139 [debug] [Thread-1  ]: Writing runtime sql for node "model.stock_analysis.price_analytics"
+[0m09:10:17.544953 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.price_analytics"
+[0m09:10:17.546344 [debug] [Thread-1  ]: On model.stock_analysis.price_analytics: BEGIN
+[0m09:10:17.548214 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m09:10:17.568655 [debug] [Thread-2  ]: SQL status: BEGIN in 0.036 seconds
+[0m09:10:17.571298 [debug] [Thread-2  ]: Using postgres connection "model.stock_analysis.int_sector_analysis"
+[0m09:10:17.573123 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_sector_analysis"} */
+
+  
+    
+
+  create  table "stock_analysis"."public"."int_sector_analysis__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+WITH sector_daily AS (
+    SELECT
+        sector,
+        DATE(timestamp) as trade_date,
+        AVG(price) as sector_avg_price,
+        SUM(volume) as sector_volume,
+        AVG(change_percent) as sector_avg_change
+    FROM "stock_analysis"."public"."stg_stock_data"
+    GROUP BY sector, DATE(timestamp)
+),
+
+sector_volatility AS (
+    SELECT
+        s.sector,
+        m.trade_date,
+        STDDEV(m.daily_volatility) as sector_volatility
+    FROM "stock_analysis"."public"."int_stock_metrics" m
+    JOIN "stock_analysis"."public"."stg_stock_data" s ON m.symbol = s.symbol
+    GROUP BY s.sector, m.trade_date
+)
+
+SELECT
+    sd.sector,
+    sd.trade_date,
+    sd.sector_avg_price,
+    sd.sector_volume,
+    sd.sector_avg_change,
+    sv.sector_volatility,
+    RANK() OVER (PARTITION BY sd.trade_date ORDER BY sd.sector_avg_change DESC) as performance_rank
+FROM sector_daily sd
+LEFT JOIN sector_volatility sv ON sd.sector = sv.sector AND sd.trade_date = sv.trade_date
+  );
+  
+[0m09:10:17.576888 [debug] [Thread-1  ]: SQL status: BEGIN in 0.029 seconds
+[0m09:10:17.578994 [debug] [Thread-1  ]: Using postgres connection "model.stock_analysis.price_analytics"
+[0m09:10:17.580359 [debug] [Thread-1  ]: On model.stock_analysis.price_analytics: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.price_analytics"} */
+
+  
+    
+
+  create  table "stock_analysis"."public"."price_analytics__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+WITH moving_averages AS (
+    SELECT
+        symbol,
+        trade_date,
+        AVG(avg_price) OVER (PARTITION BY symbol ORDER BY trade_date ROWS BETWEEN 4 PRECEDING AND CURRENT ROW) as ma_5_day,
+        AVG(avg_price) OVER (PARTITION BY symbol ORDER BY trade_date ROWS BETWEEN 9 PRECEDING AND CURRENT ROW) as ma_10_day,
+        AVG(avg_price) OVER (PARTITION BY symbol ORDER BY trade_date ROWS BETWEEN 19 PRECEDING AND CURRENT ROW) as ma_20_day
+    FROM "stock_analysis"."public"."int_stock_metrics"
+),
+
+price_momentum AS (
+    SELECT
+        symbol,
+        trade_date,
+        (close_price - LAG(close_price, 5) OVER (PARTITION BY symbol ORDER BY trade_date)) / 
+        LAG(close_price, 5) OVER (PARTITION BY symbol ORDER BY trade_date) * 100 as momentum_5_day
+    FROM "stock_analysis"."public"."int_stock_metrics"
+)
+
+SELECT
+    m.symbol,
+    m.trade_date,
+    s.avg_price,
+    s.open_price,
+    s.close_price,
+    s.high_price,
+    s.low_price,
+    s.daily_volume,
+    s.daily_volatility,
+    s.daily_return,
+    m.ma_5_day,
+    m.ma_10_day,
+    m.ma_20_day,
+    p.momentum_5_day,
+    CASE
+        WHEN m.ma_5_day > m.ma_20_day THEN 'Bullish'
+        WHEN m.ma_5_day < m.ma_20_day THEN 'Bearish'
+        ELSE 'Neutral'
+    END as trend_signal
+FROM "stock_analysis"."public"."int_stock_metrics" s
+JOIN moving_averages m ON s.symbol = m.symbol AND s.trade_date = m.trade_date
+LEFT JOIN price_momentum p ON s.symbol = p.symbol AND s.trade_date = p.trade_date
+  );
+  
+[0m09:10:19.209534 [debug] [Thread-2  ]: SQL status: SELECT 10 in 1.634 seconds
+[0m09:10:19.226344 [debug] [Thread-2  ]: Using postgres connection "model.stock_analysis.int_sector_analysis"
+[0m09:10:19.229670 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_sector_analysis"} */
+alter table "stock_analysis"."public"."int_sector_analysis" rename to "int_sector_analysis__dbt_backup"
+[0m09:10:19.234215 [debug] [Thread-2  ]: SQL status: ALTER TABLE in 0.002 seconds
+[0m09:10:19.252246 [debug] [Thread-2  ]: Using postgres connection "model.stock_analysis.int_sector_analysis"
+[0m09:10:19.255725 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_sector_analysis"} */
+alter table "stock_analysis"."public"."int_sector_analysis__dbt_tmp" rename to "int_sector_analysis"
+[0m09:10:19.261984 [debug] [Thread-2  ]: SQL status: ALTER TABLE in 0.003 seconds
+[0m09:10:19.272128 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: COMMIT
+[0m09:10:19.274566 [debug] [Thread-2  ]: Using postgres connection "model.stock_analysis.int_sector_analysis"
+[0m09:10:19.277493 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: COMMIT
+[0m09:10:19.287244 [debug] [Thread-2  ]: SQL status: COMMIT in 0.007 seconds
+[0m09:10:19.307163 [debug] [Thread-2  ]: Applying DROP to: "stock_analysis"."public"."int_sector_analysis__dbt_backup"
+[0m09:10:19.312174 [debug] [Thread-2  ]: Using postgres connection "model.stock_analysis.int_sector_analysis"
+[0m09:10:19.314696 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "stock_analysis", "target_name": "dev", "node_id": "model.stock_analysis.int_sector_analysis"} */
+drop table if exists "stock_analysis"."public"."int_sector_analysis__dbt_backup" cascade
+[0m09:10:19.323863 [debug] [Thread-2  ]: SQL status: DROP TABLE in 0.007 seconds
+[0m09:10:19.329971 [debug] [Thread-2  ]: On model.stock_analysis.int_sector_analysis: Close
+[0m09:10:19.333077 [debug] [Thread-2  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2c1aff3e-c8df-4974-8a61-0b72f57bb735', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d673a10ac10>]}
+[0m09:10:19.336375 [info ] [Thread-2  ]: 3 of 4 OK created sql table model public.int_sector_analysis ................... [[32mSELECT 10[0m in 1.92s]
+[0m09:10:19.340884 [debug] [Thread-2  ]: Finished running node model.stock_analysis.int_sector_analysis
+[0m09:21:35.098872 [debug] [MainThread]: Postgres adapter: Cancelling query 'model.stock_analysis.price_analytics' (81273)
+[0m09:21:35.216049 [debug] [MainThread]: Using postgres connection "master"
+[0m09:21:35.221270 [debug] [MainThread]: On master: BEGIN
+[0m09:21:35.230935 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m09:21:35.796697 [debug] [MainThread]: SQL status: BEGIN in 0.561 seconds
+[0m09:21:35.799878 [debug] [MainThread]: Using postgres connection "master"
+[0m09:21:35.801063 [debug] [MainThread]: On master: select pg_terminate_backend(81273)
+[0m09:21:35.808045 [debug] [MainThread]: SQL status: SELECT 1 in 0.006 seconds
+[0m09:21:35.809781 [debug] [MainThread]: Postgres adapter: Cancel query 'model.stock_analysis.price_analytics': (True,)
+[0m09:21:35.850640 [error] [MainThread]: CANCEL query model.stock_analysis.price_analytics .............................. [[31mCANCEL[0m]
+[0m09:21:35.869338 [error] [MainThread]: CANCEL query model.stock_analysis.int_stock_metrics ............................ [[31mCANCEL[0m]
+[0m09:21:35.871981 [error] [MainThread]: CANCEL query model.stock_analysis.int_sector_analysis .......................... [[31mCANCEL[0m]
+[0m09:21:35.876217 [debug] [MainThread]: On master: ROLLBACK
+[0m09:21:35.881374 [debug] [MainThread]: On master: Close
+[0m09:21:36.396573 [debug] [Thread-1  ]: Postgres adapter: Postgres error: SSL connection has been closed unexpectedly
+
+[0m09:21:36.403487 [debug] [Thread-1  ]: On model.stock_analysis.price_analytics: ROLLBACK
+[0m09:21:36.589891 [debug] [Thread-1  ]: Failed to rollback 'model.stock_analysis.price_analytics'
+[0m09:21:36.660066 [debug] [Thread-1  ]: On model.stock_analysis.price_analytics: Close
+[0m09:21:36.841138 [debug] [Thread-1  ]: Database Error in model price_analytics (models/marts/price_analytics.sql)
+  SSL connection has been closed unexpectedly
+  compiled code at target/run/stock_analysis/models/marts/price_analytics.sql
+[0m09:21:36.925457 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2c1aff3e-c8df-4974-8a61-0b72f57bb735', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d673a135310>]}
+[0m09:21:36.994890 [error] [Thread-1  ]: 4 of 4 ERROR creating sql table model public.price_analytics ................... [[31mERROR[0m in 679.40s]
+[0m09:21:37.001790 [debug] [Thread-1  ]: Finished running node model.stock_analysis.price_analytics
+[0m09:21:37.031900 [info ] [MainThread]: 
+[0m09:21:37.058080 [info ] [MainThread]: [33mExited because of keyboard interrupt[0m
+[0m09:21:37.063652 [info ] [MainThread]: 
+[0m09:21:37.079637 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[0m09:21:37.086745 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m09:21:37.088143 [debug] [MainThread]: Connection 'model.stock_analysis.price_analytics' was properly closed.
+[0m09:21:37.089596 [debug] [MainThread]: Connection 'model.stock_analysis.int_stock_metrics' was properly closed.
+[0m09:21:37.091571 [debug] [MainThread]: Connection 'model.stock_analysis.int_sector_analysis' was properly closed.
+[0m09:21:37.103817 [info ] [MainThread]: 
+[0m09:21:37.114675 [info ] [MainThread]: Finished running 2 table models, 1 view model in 0 hours 11 minutes and 21.25 seconds (681.25s).
+[0m09:21:37.141411 [error] [MainThread]: Encountered an error:
+
+[0m09:21:37.165946 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/sadhana/.pyenv/versions/3.8.11/lib/python3.8/site-packages/dbt/cli/requires.py", line 153, in wrapper
+    result, success = func(*args, **kwargs)
+  File "/home/sadhana/.pyenv/versions/3.8.11/lib/python3.8/site-packages/dbt/cli/requires.py", line 103, in wrapper
+    return func(*args, **kwargs)
+  File "/home/sadhana/.pyenv/versions/3.8.11/lib/python3.8/site-packages/dbt/cli/requires.py", line 235, in wrapper
+    return func(*args, **kwargs)
+  File "/home/sadhana/.pyenv/versions/3.8.11/lib/python3.8/site-packages/dbt/cli/requires.py", line 264, in wrapper
+    return func(*args, **kwargs)
+  File "/home/sadhana/.pyenv/versions/3.8.11/lib/python3.8/site-packages/dbt/cli/requires.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/sadhana/.pyenv/versions/3.8.11/lib/python3.8/site-packages/dbt/cli/requires.py", line 328, in wrapper
+    return func(*args, **kwargs)
+  File "/home/sadhana/.pyenv/versions/3.8.11/lib/python3.8/site-packages/dbt/cli/main.py", line 578, in run
+    results = task.run()
+  File "/home/sadhana/.pyenv/versions/3.8.11/lib/python3.8/site-packages/dbt/task/runnable.py", line 577, in run
+    result = self.execute_with_hooks(selected_uids)
+  File "/home/sadhana/.pyenv/versions/3.8.11/lib/python3.8/site-packages/dbt/task/runnable.py", line 519, in execute_with_hooks
+    res = self.execute_nodes()
+  File "/home/sadhana/.pyenv/versions/3.8.11/lib/python3.8/site-packages/dbt/task/runnable.py", line 405, in execute_nodes
+    self.run_queue(pool)
+  File "/home/sadhana/.pyenv/versions/3.8.11/lib/python3.8/site-packages/dbt/task/runnable.py", line 334, in run_queue
+    self.job_queue.join()
+  File "/home/sadhana/.pyenv/versions/3.8.11/lib/python3.8/site-packages/dbt/graph/queue.py", line 206, in join
+    self.inner.join()
+  File "/home/sadhana/.pyenv/versions/3.8.11/lib/python3.8/queue.py", line 89, in join
+    self.all_tasks_done.wait()
+  File "/home/sadhana/.pyenv/versions/3.8.11/lib/python3.8/threading.py", line 302, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+[0m09:21:37.326991 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 684.496, "process_user_time": 10.978915, "process_kernel_time": 1.173371, "process_mem_max_rss": "107092", "process_in_blocks": "34856", "process_out_blocks": "1040", "command_success": false}
+[0m09:21:37.367007 [debug] [MainThread]: Command `dbt run` failed at 09:21:37.362143 after 684.57 seconds
+[0m09:21:37.400592 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d673c2601c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d673a9f8ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d673a2d4b50>]}
+[0m09:21:37.404531 [debug] [MainThread]: Flushing usage events
+[0m09:21:39.910133 [debug] [MainThread]: An error was encountered while trying to flush usage events

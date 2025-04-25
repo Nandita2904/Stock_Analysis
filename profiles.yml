@@ -1,0 +1,12 @@
+stock_analysis:
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: stock_user
+      password: stock123
+      port: 5432
+      dbname: stock_analysis
+      schema: public
+      threads: 4
+  target: dev

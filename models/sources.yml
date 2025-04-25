@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: stock_data
+    database: stock_analysis
+    schema: public
+    tables:
+      - name: raw_stock_data
+        description: Raw stock data from streaming
+      - name: stock_moving_averages
+        description: Moving averages calculated by streaming
+      - name: sector_performance
+        description: Sector performance calculated by streaming
+      - name: market_alerts
+        description: Market alerts from streaming
